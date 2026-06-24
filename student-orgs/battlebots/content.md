@@ -1,5 +1,6 @@
-Experimental Division Combat Robotics (ExD)
-Overview
+# Experimental Division Combat Robotics (ExD)
+
+## Overview
 
 The University of Texas combat robotics organization, Experimental Division Combat Robotics (ExD), provides students with opportunities to design, manufacture, and compete with robots across several weight classes.
 
@@ -7,8 +8,13 @@ Most new members begin in the 1-pound PLAntweight division, where all non-electr
 
 I joined ExD during the second semester of my freshman year. Over time, combat robotics became one of my favorite engineering outlets because it compresses the entire engineering process—design, manufacturing, testing, failure analysis, iteration, and competition—into a matter of weeks. Every robot taught me something different, and many of the lessons came from failures rather than successes.
 
-Major Projects
-Hawk
+## Major Projects
+
+### Hawk
+
+<img class="wrap-right" src="hawk/hawk_v2.jpg" alt="Hawk, my first PLAntweight hammersaw" />
+
+<img class="wrap-left" src="hawk/hawkCAD_topview.jpeg" alt="CAD top view of Hawk" />
 
 My first combat robot was an ambitious PLAntweight hammersaw named Hawk.
 
@@ -20,7 +26,11 @@ In competition, Hawk struggled. The robot was overweight in some areas and poorl
 
 While Hawk was not competitively successful, it taught me more about design constraints and practical engineering than any classroom project I had completed up to that point.
 
-Beetle and Goomba
+### Beetle and Goomba
+
+<img class="wrap-right" src="goomba/beetle_CAD.png" alt="Beetle — the original compact concept" />
+
+<img class="wrap-left" src="goomba/goomba_smack.jpg" alt="Goomba landing a hit with its spinning shell" />
 
 After Hawk, I intentionally moved in the opposite direction and attempted to build the simplest robot possible.
 
@@ -34,7 +44,7 @@ Driving Goomba was an experience in itself. Once the weapon reached full speed, 
 
 Despite its flaws, Goomba earned my first victory outside the university at a regional competition in Houston, making it one of my most memorable robots.
 
-Drum Spinner Development
+### Drum Spinner Development
 
 Following Goomba, I shifted my focus toward competitive performance and began developing a series of drum-spinner robots.
 
@@ -44,7 +54,7 @@ Although the weapons delivered impressive hits, the designs taught me an importa
 
 Through these designs, I began to appreciate the importance of balancing weapon effectiveness with controllability and driver performance.
 
-Anklebiter
+### Anklebiter
 
 The culmination of those lessons was Anklebiter.
 
@@ -58,13 +68,17 @@ Following a full day of competition, Anklebiter finished in second place within 
 
 More importantly, the robot demonstrated the value of iterative design. Rather than attempting to maximize a single performance metric, we built a balanced machine that could consistently execute its intended strategy.
 
-BajaBot
+### BajaBot
 
 My first exposure to the Beetleweight class came through BajaBot, a robot developed for Texas Robo Rumble 2024.
 
 While I was not heavily involved in the overall design process, I contributed to chassis development and manufacturing preparation, including creating profiles for machined components. The project provided valuable exposure to larger combat robots and the manufacturing processes required to build them.
 
-Gemini
+### Gemini
+
+<img class="wrap-right" src="gemini_electronics.jpeg" alt="Gemini's internal layout and electronics" />
+
+<img class="wrap-left" src="mcdonalds_gemini.JPG" alt="Gemini" />
 
 My most recent combat robotics project is Gemini, a 3-pound Beetleweight robot that I designed and manufactured almost entirely myself.
 
@@ -80,7 +94,7 @@ When the controls behaved correctly, Gemini demonstrated excellent mobility and 
 
 Although the results did not fully reflect the design's potential, Gemini provided valuable experience in advanced materials, CNC manufacturing, drivetrain integration, and failure analysis.
 
-Impact and Lessons Learned
+## Impact and Lessons Learned
 
 Combat robotics has been one of the most effective engineering learning environments I have experienced.
 
