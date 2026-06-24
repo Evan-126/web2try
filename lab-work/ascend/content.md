@@ -36,7 +36,7 @@ I developed a mounting system using 80/20 aluminum profile that we already had a
 
 ## Linear Actuator Integration
 
-<img class="wrap-right" src="IMG_7370.jpg" alt="CNC-machining a custom aluminum adapter plate for the linear actuators" />
+<img class="wrap-right" src="linear_actuators.jpg" alt="linear actuator testing, machined plates featured above and below gray boxes" />
 
 I worked alongside a production team member to develop the mounting system for the vehicle's linear actuators.
 
@@ -62,7 +62,7 @@ In addition to building these systems, I trained three production team members i
 
 ## Braking System
 
-<img class="wrap-right" src="../../images/placeholders/ascend-braking.svg" alt="Braking system — replace with your photo" />
+<img class="wrap-right" src="braking_prototyping.jpeg" alt="Braking system iteration, plastic adapter plate in white" />
 
 The ATV's original braking system was effectively unusable when the vehicle was acquired.
 
