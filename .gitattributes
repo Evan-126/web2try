@@ -1,0 +1,35 @@
+# Normalize line endings for text files; leave binary assets untouched.
+* text=auto
+
+# Treat binary assets as binary so git never line-ending-converts, diffs,
+# or otherwise corrupts them. Patterns are case-sensitive, so list both cases.
+
+# Images
+*.jpg   binary
+*.JPG   binary
+*.jpeg  binary
+*.JPEG  binary
+*.png   binary
+*.PNG   binary
+*.gif   binary
+*.GIF   binary
+*.webp  binary
+*.bmp   binary
+*.ico   binary
+
+# Video / audio
+*.mov   binary
+*.MOV   binary
+*.mp4   binary
+*.MP4   binary
+*.webm  binary
+*.mp3   binary
+
+# Documents / fonts
+*.pdf   binary
+*.PDF   binary
+*.docx  binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary
