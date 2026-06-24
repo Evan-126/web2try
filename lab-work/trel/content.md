@@ -14,6 +14,8 @@ I initially joined the team to learn more about fluid systems and quickly became
 
 ## Fire Suppression (FireX) System
 
+<img class="wrap-right" src="../../images/placeholders/trel-firex.svg" alt="Fire suppression system — replace with your photo" />
+
 One of my first major independent projects was the development of the FireX system.
 
 The objective was to create a dedicated water-based fire suppression system capable of protecting the engine bay during testing operations. Starting from a blank sheet of paper, I designed the system architecture, selected storage tanks, determined line routing, sized tubing, sourced nozzles, and specified components capable of both broad engine-bay coverage and targeted protection of high-risk ignition points.
@@ -24,6 +26,8 @@ After completing the design, I coordinated purchasing and assembled the system. 
 
 ## Propellant and Ground Fluid Systems
 
+<img class="wrap-left" src="LOX_blowdown.jpeg" alt="Liquid oxygen system blowdown test" />
+
 During my first semester, I contributed to the design and procurement of components for several major fluid systems.
 
 I assisted with storage and transfer hardware selection for the liquid oxygen system and helped design portions of the RP-1 fill and drain infrastructure, including sourcing filters and supporting components. I also participated in assembling the gaseous nitrogen distribution panel, a large system responsible for routing purge and pressurization gas throughout the Ground Support Equipment (GSE).
@@ -33,6 +37,8 @@ These projects provided valuable experience in fluid-system design, component se
 ---
 
 ## Mobile Ground Support Equipment (GSE) Trailer
+
+<img class="wrap-right" src="FGSE_layout.jpg" alt="Fluid ground support equipment panels" />
 
 One of the largest projects completed during my tenure as Ground Fluids Responsible Engineer was the development of a mobile Ground Support Equipment (GSE) trailer.
 
@@ -46,6 +52,8 @@ The completed trailer became the backbone of operations at our Pancake, Texas te
 
 ## Igniter Systems
 
+<img class="wrap-left" src="../../images/placeholders/trel-igniter.svg" alt="Igniter systems — replace with your photo" />
+
 I helped lead the development and integration of the gaseous hydrogen and gaseous oxygen systems used to support engine ignition.
 
 These systems incorporated electronically controlled pressure regulators and required close coordination with electronics, software, and propulsion teams to ensure safe and reliable operation. The work involved component selection, plumbing design, integration planning, and testing support.
@@ -55,6 +63,8 @@ As vehicle requirements evolved, these systems underwent multiple design revisio
 ---
 
 ## Purge and Electronics Protection Systems
+
+<img class="wrap-right" src="../../images/placeholders/trel-purge.svg" alt="Purge / electronics protection — replace with your photo" />
 
 To improve operational reliability and safety, I designed and implemented a dedicated purge system for critical electronics enclosures.
 
@@ -66,6 +76,8 @@ Although relatively small compared to the larger fluid systems, this project hig
 
 ## Automation and Controls
 
+<img class="wrap-left" src="../../images/placeholders/trel-automation.svg" alt="Automation & controls — replace with your photo" />
+
 In addition to mechanical and fluid-system design, I contributed to automation efforts supporting cryogenic operations.
 
 I developed a state-machine-based controller for the liquid oxygen fill process. The system automated a "bang-bang" control strategy, in which valves operating only in fully open or fully closed states were used to maintain pressure within a specified operating range.
@@ -75,6 +87,8 @@ Developing this controller required understanding both the behavior of the fluid
 ---
 
 ## Testing Operations
+
+<img class="wrap-right" src="COPV_in_cage.JPEG" alt="COPV in its safety cage during proof/autofrettage testing" />
 
 Testing was a major component of my work within TREL.
 
@@ -87,6 +101,8 @@ As Responsible Engineer, I coordinated critical testing activities and monitored
 ---
 
 ## Water Flow Test Stand
+
+<img class="wrap-left" src="WFTS_Rebuild.JPEG" alt="Rebuilt Water Flow Test Stand" />
 
 I played a significant role in maintaining and improving the Water Flow Test Stand (WFTS), a key development platform used for instrumentation and fluid-system testing.
 
