@@ -14,6 +14,8 @@ I joined ASCEND in January 2025. During my involvement, I have contributed to me
 
 ## Front Frame
 
+<img class="wrap-right" src="front_box_FEA.png" alt="Front frame FEA" />
+
 To balance the ATV and provide mounting locations for batteries and electronics, we needed a front frame integrated into an existing structure with four irregular mounting points located on different planes.
 
 I took measurements, created the CAD model, performed FEA analysis, sourced materials, coordinated purchasing, and welded the final assembly. Despite the unusual mounting constraints, the resulting design was simple, low-cost, and highly rigid while providing the necessary support for future vehicle systems.
@@ -22,6 +24,8 @@ I took measurements, created the CAD model, performed FEA analysis, sourced mate
 
 ## Flight Motor Mounting
 
+<img class="wrap-left" src="../../images/placeholders/ascend-flight-motor.svg" alt="Flight motor mounting — replace with your photo" />
+
 For initial testing of the flight motor, we needed an inexpensive and adjustable mounting solution that could connect the motor's hexagonal bolt pattern to a wooden test structure.
 
 I developed a mounting system using 80/20 aluminum profile that we already had available. The design proved effective enough that a similar approach was later adopted for integration onto the vehicle itself. When a later iteration suffered from excessive vibration due to less rigid structural members, I redesigned the assembly and incorporated vibration-damping hardware, producing a mount capable of supporting continued testing until the final steel structure is completed.
@@ -29,6 +33,8 @@ I developed a mounting system using 80/20 aluminum profile that we already had a
 ---
 
 ## Linear Actuator Integration
+
+<img class="wrap-right" src="../../images/placeholders/ascend-linear-actuator.svg" alt="Linear actuator integration — replace with your photo" />
 
 I worked alongside a production team member to develop the mounting system for the vehicle's linear actuators.
 
@@ -39,6 +45,8 @@ To increase rigidity and provide future mounting locations for additional system
 ---
 
 ## Test Infrastructure
+
+<img class="wrap-left" src="../../images/placeholders/ascend-test-infra.svg" alt="Test infrastructure — replace with your photo" />
 
 I independently designed, sourced, fabricated, and validated two dedicated test stands.
 
@@ -51,6 +59,8 @@ In addition to building these systems, I trained three production team members i
 ---
 
 ## Braking System
+
+<img class="wrap-right" src="../../images/placeholders/ascend-braking.svg" alt="Braking system — replace with your photo" />
 
 The ATV's original braking system was effectively unusable when the vehicle was acquired.
 
@@ -97,3 +107,5 @@ ASCEND has provided me with opportunities to contribute across nearly every stag
 What began as a stripped-down ATV chassis has evolved into a nearly flight-capable vehicle containing integrated propulsion, steering, braking, wing-control, and electronics systems. Contributing to that transformation—and helping other students develop their own engineering skills along the way—has been one of the most rewarding experiences of my engineering career.
 
 As the project continues toward flight testing, I remain actively involved in guiding technical development and supporting the team through its next stage of growth.
+
+<img class="feature-center" src="../../images/placeholders/ascend-team.svg" alt="The whole ASCEND team — replace with your team photo" />

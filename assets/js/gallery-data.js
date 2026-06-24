@@ -3,19 +3,15 @@
 // (portfolio.html) and the full gallery (gallery.html).
 //
 // HOW TO EDIT:
-//   * Each photo is ONE line below. To remove a photo you don't like, just
-//     delete its line. To reorder, move the line. To add one, copy a line.
-//   * 'src'   = path to the image (relative to the site root).
-//   * 'topic' = the page this photo links to in the gallery.
-//   * 'alt'   = short description (also used as the gallery caption).
-//   Photos are grouped by topic with a header comment for each group.
+//   * Each photo is ONE line below. Delete a line to remove that photo from
+//     BOTH the highlights reel and the gallery. Reorder by moving lines.
+//   * 'src' = image path (from site root); 'topic' = page it links to;
+//     'alt' = short caption.  Photos are grouped by topic.
 // =============================================================================
 window.GALLERY = [
 
 	// ----- Lab Work / Ascend  (links to: lab-work/ascend/) -----
 	{ src: "lab-work/ascend/ATV_plaques.JPEG", topic: "lab-work/ascend/", alt: "ATV plaques" },
-	{ src: "lab-work/ascend/CNCtraining_computer.jpg", topic: "lab-work/ascend/", alt: "CNCtraining computer" },
-	{ src: "lab-work/ascend/CNCtraining_machine.jpg", topic: "lab-work/ascend/", alt: "CNCtraining machine" },
 	{ src: "lab-work/ascend/FULLATV_bare.JPEG", topic: "lab-work/ascend/", alt: "FULLATV bare" },
 	{ src: "lab-work/ascend/IMG_5452.JPG", topic: "lab-work/ascend/", alt: "IMG 5452" },
 	{ src: "lab-work/ascend/IMG_5897.jpg", topic: "lab-work/ascend/", alt: "IMG 5897" },
@@ -26,6 +22,7 @@ window.GALLERY = [
 	{ src: "lab-work/ascend/IMG_7370.jpg", topic: "lab-work/ascend/", alt: "IMG 7370" },
 	{ src: "lab-work/ascend/battery_layout.jpg", topic: "lab-work/ascend/", alt: "battery layout" },
 	{ src: "lab-work/ascend/capstan_installed.jpg", topic: "lab-work/ascend/", alt: "capstan installed" },
+	{ src: "lab-work/ascend/front_box_FEA.png", topic: "lab-work/ascend/", alt: "front box FEA" },
 	{ src: "lab-work/ascend/geared_assem.jpg", topic: "lab-work/ascend/", alt: "geared assem" },
 	{ src: "lab-work/ascend/greenbase_cut_installed.JPG", topic: "lab-work/ascend/", alt: "greenbase cut installed" },
 	{ src: "lab-work/ascend/greenbase_side.JPG", topic: "lab-work/ascend/", alt: "greenbase side" },
@@ -78,6 +75,10 @@ window.GALLERY = [
 	{ src: "makerspace/making/pipetteholder_BIOBRICKS.jpg", topic: "makerspace/making/", alt: "pipetteholder BIOBRICKS" },
 	{ src: "makerspace/making/pipetteholder_CAD.png", topic: "makerspace/making/", alt: "pipetteholder CAD" },
 	{ src: "makerspace/making/pipetteholder_lineup.jpg", topic: "makerspace/making/", alt: "pipetteholder lineup" },
+
+	// ----- Makerspace / Teaching  (links to: makerspace/teaching/) -----
+	{ src: "makerspace/teaching/CNCtraining_computer.jpg", topic: "makerspace/teaching/", alt: "CNCtraining computer" },
+	{ src: "makerspace/teaching/CNCtraining_machine.jpg", topic: "makerspace/teaching/", alt: "CNCtraining machine" },
 
 	// ----- Student Orgs / Battlebots / Goomba  (links to: student-orgs/battlebots/goomba/) -----
 	{ src: "student-orgs/battlebots/goomba/IMG_5384.JPEG", topic: "student-orgs/battlebots/goomba/", alt: "IMG 5384" },

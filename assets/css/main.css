@@ -4081,3 +4081,12 @@ input, select, textarea {
 	transition: opacity 0.2s ease;
 }
 .gallery-grid .gal-item:hover .gal-cap { opacity: 1; }
+
+/* ---- Markdown content: side-wrapped images + centered feature image ---- */
+.md-content h1, .md-content h2, .md-content h3 { clear: both; }
+.md-content img.wrap-left  { float: left;  width: 38%; max-width: 360px; margin: 0.35em 1.5em 1em 0; border-radius: 5px; }
+.md-content img.wrap-right { float: right; width: 38%; max-width: 360px; margin: 0.35em 0 1em 1.5em; border-radius: 5px; }
+.md-content img.feature-center { display: block; clear: both; margin: 2.5em auto 0.5em auto; width: 100%; max-width: 760px; border-radius: 5px; }
+@media screen and (max-width: 736px) {
+	.md-content img.wrap-left, .md-content img.wrap-right { float: none; width: 100%; max-width: 100%; margin: 1em 0; }
+}
