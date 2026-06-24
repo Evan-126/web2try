@@ -23,7 +23,7 @@ Shown below are images of the steering box layout before I attacked it (Fig. 2.1
 
 Figure 2.1.1
 
-![Figure 2.1.2 FEA setup ](https://raw.githubusercontent.com/Evan-126/web2try/main/ASCEND/shaftFEA_setup.JPEG)
+![Figure 2.1.2 FEA setup ](https://raw.githubusercontent.com/Evan-126/web2try/main/ASCEND/shaftFEA_setup.jpg)
 Figure 2.1.2
 
 ![Figure 2.1.3 FEA running ](https://raw.githubusercontent.com/Evan-126/web2try/main/ASCEND/shaftFEA_failed.jpg)
@@ -42,13 +42,13 @@ Figure 2.2.1 shows this updated CAD model.
 ### Distance Verification
 The first prototype I created was almost entirely for the sake of verifying the distances on the CAD model. Our organization is still relatively new and small, and especially at that time did not have a tool that could be used to accurately measure the sizes of everything in the steering box, and the angle the shaft made with the surrounding rails was especially difficult to determine. Of course I first tried to find specs online – but to no avail. Fig. 2.3.1-3 show the top view, side view, and the visuals after installation of the first prototype I made.
 
-![Figure 2.3.1 1st prototype top view ](https://raw.githubusercontent.com/Evan-126/web2try/main/ASCEND/greenbase_top.JPG)
+![Figure 2.3.1 1st prototype top view ](https://raw.githubusercontent.com/Evan-126/web2try/main/ASCEND/greenbase_top.jpg)
 Figure 2.3.1
 
-![Figure 2.3.2 1st prototype side view ](https://raw.githubusercontent.com/Evan-126/web2try/main/ASCEND/greenbase_side.JPG)
+![Figure 2.3.2 1st prototype side view ](https://raw.githubusercontent.com/Evan-126/web2try/main/ASCEND/greenbase_side.jpg)
 Figure 2.3.2
 
-![Figure 2.3.3 1st prototype installed ](https://raw.githubusercontent.com/Evan-126/web2try/main/ASCEND/greenbase_cut_installed.JPG)
+![Figure 2.3.3 1st prototype installed ](https://raw.githubusercontent.com/Evan-126/web2try/main/ASCEND/greenbase_cut_installed.jpg)
 Figure 2.3.3
 
 
