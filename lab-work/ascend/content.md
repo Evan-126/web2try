@@ -1,70 +1,99 @@
-// the purpose of this document is to create pre-markdown webpages to detail individual achievements or progress within organizations. 
+# ASCEND Contributions
 
+## Overview
 
-# ASCEND CONTRIBUTIONS
-The ASCEND student organization is a visionary group engaged in multiple intercollegiate competitions to develop sustainable emergency response aircraft. The competition we are most heavily involved in currently is GoAero (link: [https://www.goaeroprize.com/](https://www.goaeroprize.com/) ), in which we have won an Innovation Award! (link: [https://www.goaeroprize.com/post/team-ascend-ut-austin-goaero-innovation-award](https://www.goaeroprize.com/post/team-ascend-ut-austin-goaero-innovation-award)). 
-Overall, the idea we have devised (and are currently in the process of prototyping) is a stripped-down ATV frame, which we strip down to bare metal, convert to electric and install a large propeller, paraglider wing, and the infrastructure to sturdily mount them. From there, we remotely (and eventually autonomously) control every single degree of freedom of the vehicle – from the minute wing adjustments to the two massive electric motors. The vehicle used in this competition also is used in 
+ASCEND (Aerial Solutions to Combat Emergencies and Natural Disasters) is a student engineering organization focused on developing innovative emergency-response aircraft. The team is currently competing in the GoAero competition, where we earned a GoAero Innovation Award for our vehicle concept.
 
-I have also taken on the role of President for a small group competing in NASA’s Blue Skies Competition (link: [https://blueskies.nianet.org/](https://blueskies.nianet.org/)). 
+Our current platform is a stripped-down ATV that has been converted into a remotely operated aircraft testbed. The vehicle integrates electric propulsion, a powered flight motor, a paraglider wing, and numerous custom mechanical and electrical systems. Every degree of freedom—from steering and braking to wing control and propulsion—is being adapted for remote operation, with the long-term goal of autonomous control.
 
-ASCEND stands for Aerial Solutions to Combat Emergencies and Natural Disasters, and the mission of the org never strays far from that  The GoAero vehicle 
+I joined ASCEND in January 2025. During my involvement, I have contributed to mechanical design, structural analysis, fabrication, subsystem integration, testing, and leadership. By the time I assumed the role of Chief Engineer in June 2026, every major subsystem of the vehicle had been physically represented and integrated on the platform.
 
-Fig. 1.1 shows our whole team around the vehicle. 
+---
 
+# Major Technical Contributions
 
+## Front Frame
 
-## Steering
-One of the biggest mechanical challenges of our project is attaching mechanical actuators (to be operated remotely) that provide the same functionalities a human would expect from the ATV, while also reducing weight as much as possible. I personally have taken over designing an actuator for steering. Given a pre-existing servo, my challenge was to design around the cramped area inside the forward steering box and the servo to deliver an assembly that would not only achieve steering functionality, but also reduce overall weight of the vehicle and reduce overall manufacturing costs all without compromising the integrity of the existing tube chassis or control arms. Initially, we did not know the material or thickness of the tubes, which added a little more complexity.
+To balance the ATV and provide mounting locations for batteries and electronics, we needed a front frame integrated into an existing structure with four irregular mounting points located on different planes.
 
-### Initial Analysis. 
-Naturally, the first step in creating this system was ensuring I would not harm the preexisting functionality of the steering assembly. Working with a teammate, we recreated a SolidWorks CAD model of the area around the forward steering box. After some discourse with more senior engineering students, we realized that the central rod that originally connected the handlebars to the knuckle (where the tie rods are attached) was the ideal part to connect the servo to, as it would require minimum adjustments to the existing frame. We then determined how much torque on the steering shaft was required to move the wheels at standstill – the time where there is the most resistance. This number was then plugged into an adjusted CAD model of where I expected the servo to attach to the steering arm, and a finite element analysis was run on tubes of varying thickness and using both aluminum and steel (recall we did not know the material or thickness of the tubes at this point in time). 
+I took measurements, created the CAD model, performed FEA analysis, sourced materials, coordinated purchasing, and welded the final assembly. Despite the unusual mounting constraints, the resulting design was simple, low-cost, and highly rigid while providing the necessary support for future vehicle systems.
 
-Shown below are images of the steering box layout before I attacked it (Fig. 2.1.1), the FEA setup (Fig. 2.1.2), and the first analysis performed, assuming aluminum tube of 0.035” thickness and 11 ft-lb torque applied 2” from the fixed knuckle (Fig. 2.1.3). 
+---
 
-Figure 2.1.1
+## Flight Motor Mounting
 
-![Figure 2.1.2 FEA setup ](shaftFEA_setup.JPEG)
-Figure 2.1.2
+For initial testing of the flight motor, we needed an inexpensive and adjustable mounting solution that could connect the motor's hexagonal bolt pattern to a wooden test structure.
 
-![Figure 2.1.3 FEA running ](shaftFEA_failed.jpg)
-Figure 2.1.3
+I developed a mounting system using 80/20 aluminum profile that we already had available. The design proved effective enough that a similar approach was later adopted for integration onto the vehicle itself. When a later iteration suffered from excessive vibration due to less rigid structural members, I redesigned the assembly and incorporated vibration-damping hardware, producing a mount capable of supporting continued testing until the final steel structure is completed.
 
-The value for the torque was determined by pushing on one side of the handlebars, then lying down and lifting objects of varying weights and selecting one that felt similar, then multiplying that weight (lb) by the distance from the axis of rotation. We also multipled it by a safety factor of 2 to account for any human error, or the fact that unforeseen uneven impacts on the wheels when landing or hitting obstacles would likely induce torques even greater than that required for just turning the wheels at a standstill. 
+---
 
-## General Layout
-To introduce the actuating servo into this assembly, I knew there would have to be at least a static part to hold the servo, a part to connect between the servo and steering shaft, and another part rotating with the steering shaft. All of these had to be built to transfer the relatively massive 15Nm of torque required. At first, my superiors in the organization introduced another small complication – that I should attempt to achieve this goal without drilling any holes in the tubes (or otherwise physically altering the underlying chassis). There were some bureaucratic disputes for a time, but I was finally able to explain that it would be nearly impossible to provide the required torque to the steering shaft via a clamping mechanism without deforming the shaft or simply sliding around it. I also stated that even if it were possible, it would be much easier to bolt or weld a connector to the shaft. This can be seen in my initial prototypes which feature both a clamping and bolting option to both the steering shaft and the surrounding steering box. 
+## Linear Actuator Integration
 
-Connecting to the box was another issue. It was determined that in the CAD model from the semester before I joined the organization, the tubes were a slightly incorrect size, and the two side rails were a little bit farther apart on the CAD than in reality. This was the primary reason why I dedicated some time to updating the CAD, even though it was beyond the scope of my role at the time.  
+I worked alongside a production team member to develop the mounting system for the vehicle's linear actuators.
 
-Figure 2.2.1 shows this updated CAD model.
+An early concept relied on custom-manufactured components integrated into the existing frame, but ground-clearance concerns ultimately forced a redesign. We transitioned to an aluminum-frame solution that proved successful enough to be adopted on the vehicle.
 
-## Prototypes
-### Distance Verification
-The first prototype I created was almost entirely for the sake of verifying the distances on the CAD model. Our organization is still relatively new and small, and especially at that time did not have a tool that could be used to accurately measure the sizes of everything in the steering box, and the angle the shaft made with the surrounding rails was especially difficult to determine. Of course I first tried to find specs online – but to no avail. Fig. 2.3.1-3 show the top view, side view, and the visuals after installation of the first prototype I made.
+To increase rigidity and provide future mounting locations for additional systems, we reinforced the structure with heavy-duty 40x40 aluminum channel. Near the end of the semester, I completed the final integration by designing and machining custom 10 mm aluminum adapter plates that connected the actuators to the frame. Press-fit features were incorporated to improve vibration resistance and long-term reliability.
 
-![Figure 2.3.1 1st prototype top view ](greenbase_top.JPG)
-Figure 2.3.1
+---
 
-![Figure 2.3.2 1st prototype side view ](greenbase_side.JPG)
-Figure 2.3.2
+## Test Infrastructure
 
-![Figure 2.3.3 1st prototype installed ](greenbase_cut_installed.JPG)
-Figure 2.3.3
+I independently designed, sourced, fabricated, and validated two dedicated test stands.
 
+The first was developed for flight-motor and static wing-mount testing and later became a useful platform for electronics staging and integration work. The second was designed specifically to evaluate the braking system, positioning the linear actuators in a geometry representative of their installation on the ATV.
 
+Both stands were constructed entirely from readily available hardware-store materials and cost less than $30 each. Despite their low cost, they were highly durable and performed exactly as intended throughout testing and development.
 
-### Capstan
-Initially, in the interest of prioritizing manufacturability and lowering cost, I decided to design a capstan drive system to turn the steering shaft. 
+In addition to building these systems, I trained three production team members in safe drill operation and fabrication techniques to improve the quality and efficiency of their work.
 
-### Geared
+---
 
-## Test Stand
-### Creation
+## Braking System
 
-### Usage
+The ATV's original braking system was effectively unusable when the vehicle was acquired.
 
-## Build and Design Mentor
+Working alongside the Program Manager, I helped lead the design and integration of an adapter that allowed us to install an off-the-shelf replacement braking system. The new assembly was successfully integrated and demonstrated substantially improved braking performance during testing.
 
-### Build 
+We also incorporated provisions for future remote actuation using a linear actuator. While that functionality has not yet been fully implemented, the infrastructure required for future integration is already in place.
 
-### Design
+---
+
+# Leadership and Team Development
+
+Throughout my involvement with ASCEND, I have progressively taken on greater technical and leadership responsibilities.
+
+When I first joined the organization, team members frequently approached me for design reviews, manufacturing advice, and general engineering guidance. Although I initially declined formal leadership positions, I eventually realized how much I enjoyed the work and chose to take on a larger role within the organization.
+
+## Production Lead
+
+As Production Lead, I focused heavily on developing the technical skills of newer members. I introduced team members to welding, machining, CAD, and the engineering design process through hands-on project work and guided them through each stage of development.
+
+One of the areas of personal growth I am most proud of was learning how to teach problem-solving rather than simply providing solutions. My goal became helping members build confidence in finding their own answers while still providing support when necessary.
+
+## Design Leadership
+
+After the Design Lead stepped down, I began sharing many of those responsibilities while working closely with the Program Manager.
+
+In this role, I reviewed CAD models, evaluated design concepts, provided technical feedback, and helped coordinate communication between the design and production teams. This significantly reduced the disconnect between design intent and manufacturing reality, improving overall team efficiency.
+
+When I entered this role, only a small number of vehicle subsystems had been physically implemented. By the end of my tenure, every major subsystem—including steering, propulsion, wing mounting, wing control, braking, and electronics infrastructure—had a physical presence on the vehicle.
+
+## Chief Engineer
+
+In June 2026, I assumed the role of Chief Engineer.
+
+In this position, I oversee major technical decisions and coordinate development efforts across the project. Because many members are away during the summer, I have also become increasingly involved in hands-on integration and testing activities.
+
+As the ATV approaches flight readiness, I frequently serve as Test Coordinator. In this role, I conduct safety briefings, assign responsibilities, oversee testing procedures, and coordinate responses to issues that arise during operations.
+
+---
+
+# Impact
+
+ASCEND has provided me with opportunities to contribute across nearly every stage of the engineering process, from early concept development and analysis to fabrication, testing, integration, and leadership.
+
+What began as a stripped-down ATV chassis has evolved into a nearly flight-capable vehicle containing integrated propulsion, steering, braking, wing-control, and electronics systems. Contributing to that transformation—and helping other students develop their own engineering skills along the way—has been one of the most rewarding experiences of my engineering career.
+
+As the project continues toward flight testing, I remain actively involved in guiding technical development and supporting the team through its next stage of growth.
