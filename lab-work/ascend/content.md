@@ -16,8 +16,6 @@ I joined ASCEND in January 2025. During my involvement, I have contributed to me
 
 <img class="wrap-right" src="front_box_FEA.png" alt="Front frame FEA" />
 
-<img class="wrap-left" src="battery_layout.jpg" alt="Batteries and electronics mounted on the front frame" />
-
 To balance the ATV and provide mounting locations for batteries and electronics, we needed a front frame integrated into an existing structure with four irregular mounting points located on different planes.
 
 I took measurements, created the CAD model, performed FEA analysis, sourced materials, coordinated purchasing, and welded the final assembly. Despite the unusual mounting constraints, the resulting design was simple, low-cost, and highly rigid while providing the necessary support for future vehicle systems.
