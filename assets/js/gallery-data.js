@@ -5,6 +5,75 @@
 // =============================================================================
 window.GALLERY = [
 
+	// ----- Coursework / Unm  (links to: coursework/unm/) -----
+	{ src: "coursework/unm/flamey/flamey_cover.jpg", topic: "coursework/unm/", alt: "flamey cover" },
+	{ src: "coursework/unm/tank/IMG-0863.jpg", topic: "coursework/unm/", alt: "IMG 0863" },
+	{ src: "coursework/unm/tank/IMG-0863_edited.jpg", topic: "coursework/unm/", alt: "IMG 0863 edited" },
+	{ src: "coursework/unm/tank/IMG-2199.jpg", topic: "coursework/unm/", alt: "IMG 2199" },
+
+	// ----- Coursework / Ut  (links to: coursework/ut/) -----
+	{ src: "coursework/ut/ut-other/IMG_8996.jpg", topic: "coursework/ut/", alt: "IMG 8996" },
+	{ src: "coursework/ut/ut-other/IMG_9128.jpg", topic: "coursework/ut/", alt: "IMG 9128" },
+	{ src: "coursework/ut/ut-other/IMG_9157.jpg", topic: "coursework/ut/", alt: "IMG 9157" },
+	{ src: "coursework/ut/ut-other/IMG_9334.GIF", topic: "coursework/ut/", alt: "IMG 9334" },
+	{ src: "coursework/ut/ut-other/IMG_9398.jpg", topic: "coursework/ut/", alt: "IMG 9398" },
+	{ src: "coursework/ut/ut-other/cover_ME.png", topic: "coursework/ut/", alt: "cover ME" },
+
+	// ----- Coursework / Ut / Machine Elements  (links to: coursework/ut/machine-elements/) -----
+	{ src: "coursework/ut/machine-elements/IMG_0912.JPEG", topic: "coursework/ut/machine-elements/", alt: "IMG 0912" },
+	{ src: "coursework/ut/machine-elements/IMG_6474.jpg", topic: "coursework/ut/machine-elements/", alt: "IMG 6474" },
+	{ src: "coursework/ut/machine-elements/IMG_6480.jpg", topic: "coursework/ut/machine-elements/", alt: "IMG 6480" },
+	{ src: "coursework/ut/machine-elements/IMG_6610.jpg", topic: "coursework/ut/machine-elements/", alt: "IMG 6610" },
+	{ src: "coursework/ut/machine-elements/IMG_6630.jpg", topic: "coursework/ut/machine-elements/", alt: "IMG 6630" },
+	{ src: "coursework/ut/machine-elements/Screenshot 2025-11-08 102828.png", topic: "coursework/ut/machine-elements/", alt: "Screenshot 2025 11 08 102828" },
+	{ src: "coursework/ut/machine-elements/Screenshot 2025-11-08 103255.png", topic: "coursework/ut/machine-elements/", alt: "Screenshot 2025 11 08 103255" },
+	{ src: "coursework/ut/machine-elements/chassis_CAD.png", topic: "coursework/ut/machine-elements/", alt: "chassis CAD" },
+	{ src: "coursework/ut/machine-elements/final_ISOVIEW.JPEG", topic: "coursework/ut/machine-elements/", alt: "final ISOVIEW" },
+	{ src: "coursework/ut/machine-elements/final_nosteering.JPEG", topic: "coursework/ut/machine-elements/", alt: "final nosteering" },
+	{ src: "coursework/ut/machine-elements/final_steerassem.jpg", topic: "coursework/ut/machine-elements/", alt: "final steerassem" },
+	{ src: "coursework/ut/machine-elements/powertrain_CAD.png", topic: "coursework/ut/machine-elements/", alt: "powertrain CAD" },
+	{ src: "coursework/ut/machine-elements/sugarcrush_disassembled.jpg", topic: "coursework/ut/machine-elements/", alt: "sugarcrush disassembled" },
+	{ src: "coursework/ut/machine-elements/sugarcrush_full.jpg", topic: "coursework/ut/machine-elements/", alt: "sugarcrush full" },
+	{ src: "coursework/ut/machine-elements/team_pic.JPEG", topic: "coursework/ut/machine-elements/", alt: "team pic" },
+	{ src: "coursework/ut/machine-elements/v2_full.jpg", topic: "coursework/ut/machine-elements/", alt: "v2 full" },
+
+	// ----- Coursework / Ut / Other Coursework  (links to: coursework/ut/other-coursework/) -----
+	{ src: "coursework/ut/other-coursework/IMG_2273.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2273" },
+	{ src: "coursework/ut/other-coursework/IMG_2274.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2274" },
+	{ src: "coursework/ut/other-coursework/IMG_2275.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2275" },
+	{ src: "coursework/ut/other-coursework/IMG_2276.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2276" },
+	{ src: "coursework/ut/other-coursework/IMG_2315.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2315" },
+	{ src: "coursework/ut/other-coursework/IMG_2316.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2316" },
+	{ src: "coursework/ut/other-coursework/IMG_2317.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2317" },
+	{ src: "coursework/ut/other-coursework/IMG_2318.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2318" },
+	{ src: "coursework/ut/other-coursework/IMG_2319.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2319" },
+	{ src: "coursework/ut/other-coursework/IMG_2415.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2415" },
+	{ src: "coursework/ut/other-coursework/IMG_2416.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2416" },
+	{ src: "coursework/ut/other-coursework/IMG_2463.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2463" },
+	{ src: "coursework/ut/other-coursework/IMG_2464.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2464" },
+	{ src: "coursework/ut/other-coursework/IMG_2465.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2465" },
+	{ src: "coursework/ut/other-coursework/IMG_2465.jpg", topic: "coursework/ut/other-coursework/", alt: "IMG 2465" },
+	{ src: "coursework/ut/other-coursework/Screenshot 2023-09-27 115020.png", topic: "coursework/ut/other-coursework/", alt: "Screenshot 2023 09 27 115020" },
+	{ src: "coursework/ut/other-coursework/Screenshot 2023-10-11 212338.png", topic: "coursework/ut/other-coursework/", alt: "Screenshot 2023 10 11 212338" },
+	{ src: "coursework/ut/other-coursework/Screenshot 2023-10-25 193626.png", topic: "coursework/ut/other-coursework/", alt: "Screenshot 2023 10 25 193626" },
+	{ src: "coursework/ut/other-coursework/Screenshot 2023-10-27 100657.png", topic: "coursework/ut/other-coursework/", alt: "Screenshot 2023 10 27 100657" },
+	{ src: "coursework/ut/other-coursework/Screenshot 2023-11-03 113739.png", topic: "coursework/ut/other-coursework/", alt: "Screenshot 2023 11 03 113739" },
+	{ src: "coursework/ut/other-coursework/Screenshot 2023-11-10 120010.png", topic: "coursework/ut/other-coursework/", alt: "Screenshot 2023 11 10 120010" },
+
+	// ----- Coursework / Ut / Rmd  (links to: coursework/ut/rmd/) -----
+	{ src: "coursework/ut/rmd/firstbot_3dprints.JPEG", topic: "coursework/ut/rmd/", alt: "firstbot 3dprints" },
+	{ src: "coursework/ut/rmd/firstbot_electronics.JPEG", topic: "coursework/ut/rmd/", alt: "firstbot electronics" },
+	{ src: "coursework/ut/rmd/firstbot_full.JPEG", topic: "coursework/ut/rmd/", alt: "firstbot full" },
+	{ src: "coursework/ut/rmd/slidercrank_linkages.JPEG", topic: "coursework/ut/rmd/", alt: "slidercrank linkages" },
+	{ src: "coursework/ut/rmd/updated_slidercrank_linkages.JPEG", topic: "coursework/ut/rmd/", alt: "updated slidercrank linkages" },
+
+	// ----- Coursework / Ut / Scientific Innovation  (links to: coursework/ut/scientific-innovation/) -----
+	{ src: "coursework/ut/scientific-innovation/Cover_ugs.png", topic: "coursework/ut/scientific-innovation/", alt: "Cover ugs" },
+	{ src: "coursework/ut/scientific-innovation/IMG_3224.jpg", topic: "coursework/ut/scientific-innovation/", alt: "IMG 3224" },
+	{ src: "coursework/ut/scientific-innovation/IMG_3312.jpg", topic: "coursework/ut/scientific-innovation/", alt: "IMG 3312" },
+	{ src: "coursework/ut/scientific-innovation/IMG_3358.jpg", topic: "coursework/ut/scientific-innovation/", alt: "IMG 3358" },
+	{ src: "coursework/ut/scientific-innovation/Screenshot 2024-11-27 191752.png", topic: "coursework/ut/scientific-innovation/", alt: "Screenshot 2024 11 27 191752" },
+
 	// ----- Lab Work / Ascend  (links to: lab-work/ascend/) -----
 	{ src: "lab-work/ascend/ATV_plaques.JPEG", topic: "lab-work/ascend/", alt: "ATV plaques" },
 	{ src: "lab-work/ascend/FULLATV_bare.JPEG", topic: "lab-work/ascend/", alt: "FULLATV bare" },
@@ -68,6 +137,11 @@ window.GALLERY = [
 	// ----- Makerspace / Teaching  (links to: makerspace/teaching/) -----
 	{ src: "makerspace/teaching/CNCtraining_machine.jpg", topic: "makerspace/teaching/", alt: "CNCtraining machine" },
 
+	// ----- Student Orgs / Adapt  (links to: student-orgs/adapt/) -----
+	{ src: "student-orgs/adapt/dogblade_FEA.png", topic: "student-orgs/adapt/", alt: "dogblade FEA" },
+	{ src: "student-orgs/adapt/dogprosthetic_poster.jpg", topic: "student-orgs/adapt/", alt: "dogprosthetic poster" },
+	{ src: "student-orgs/adapt/goatprosthetic_poster.jpg", topic: "student-orgs/adapt/", alt: "goatprosthetic poster" },
+
 	// ----- Student Orgs / Battlebots  (links to: student-orgs/battlebots/) -----
 	{ src: "student-orgs/battlebots/gemini_electronics.jpeg", topic: "student-orgs/battlebots/", alt: "gemini electronics" },
 	{ src: "student-orgs/battlebots/gemini_spinning.JPG", topic: "student-orgs/battlebots/", alt: "gemini spinning" },
@@ -85,75 +159,4 @@ window.GALLERY = [
 	{ src: "student-orgs/battlebots/hawk/hawk_firstbase.JPG", topic: "student-orgs/battlebots/", alt: "hawk firstbase" },
 	{ src: "student-orgs/battlebots/hawk/hawk_v2.jpg", topic: "student-orgs/battlebots/", alt: "hawk v2" },
 	{ src: "student-orgs/battlebots/hawk/topview_CAD.png", topic: "student-orgs/battlebots/", alt: "topview CAD" },
-
-	// ----- Unm / Flamey  (links to: unm/flamey/) -----
-	{ src: "unm/flamey/flamey_cover.jpg", topic: "unm/flamey/", alt: "flamey cover" },
-
-	// ----- Unm / Tank  (links to: unm/tank/) -----
-	{ src: "unm/tank/IMG-0863.jpg", topic: "unm/tank/", alt: "IMG 0863" },
-	{ src: "unm/tank/IMG-0863_edited.jpg", topic: "unm/tank/", alt: "IMG 0863 edited" },
-	{ src: "unm/tank/IMG-2199.jpg", topic: "unm/tank/", alt: "IMG 2199" },
-
-	// ----- Ut Coursework  (links to: ut-coursework/) -----
-	{ src: "ut-coursework/ut-other/IMG_8996.jpg", topic: "ut-coursework/", alt: "IMG 8996" },
-	{ src: "ut-coursework/ut-other/IMG_9128.jpg", topic: "ut-coursework/", alt: "IMG 9128" },
-	{ src: "ut-coursework/ut-other/IMG_9157.jpg", topic: "ut-coursework/", alt: "IMG 9157" },
-	{ src: "ut-coursework/ut-other/IMG_9334.GIF", topic: "ut-coursework/", alt: "IMG 9334" },
-	{ src: "ut-coursework/ut-other/IMG_9398.jpg", topic: "ut-coursework/", alt: "IMG 9398" },
-	{ src: "ut-coursework/ut-other/cover_ME.png", topic: "ut-coursework/", alt: "cover ME" },
-
-	// ----- Ut Coursework / Machine Elements  (links to: ut-coursework/machine-elements/) -----
-	{ src: "ut-coursework/machine-elements/IMG_0912.JPEG", topic: "ut-coursework/machine-elements/", alt: "IMG 0912" },
-	{ src: "ut-coursework/machine-elements/IMG_6474.jpg", topic: "ut-coursework/machine-elements/", alt: "IMG 6474" },
-	{ src: "ut-coursework/machine-elements/IMG_6480.jpg", topic: "ut-coursework/machine-elements/", alt: "IMG 6480" },
-	{ src: "ut-coursework/machine-elements/IMG_6610.jpg", topic: "ut-coursework/machine-elements/", alt: "IMG 6610" },
-	{ src: "ut-coursework/machine-elements/IMG_6630.jpg", topic: "ut-coursework/machine-elements/", alt: "IMG 6630" },
-	{ src: "ut-coursework/machine-elements/Screenshot 2025-11-08 102828.png", topic: "ut-coursework/machine-elements/", alt: "Screenshot 2025 11 08 102828" },
-	{ src: "ut-coursework/machine-elements/Screenshot 2025-11-08 103255.png", topic: "ut-coursework/machine-elements/", alt: "Screenshot 2025 11 08 103255" },
-	{ src: "ut-coursework/machine-elements/chassis_CAD.png", topic: "ut-coursework/machine-elements/", alt: "chassis CAD" },
-	{ src: "ut-coursework/machine-elements/final_ISOVIEW.JPEG", topic: "ut-coursework/machine-elements/", alt: "final ISOVIEW" },
-	{ src: "ut-coursework/machine-elements/final_nosteering.JPEG", topic: "ut-coursework/machine-elements/", alt: "final nosteering" },
-	{ src: "ut-coursework/machine-elements/final_steerassem.jpg", topic: "ut-coursework/machine-elements/", alt: "final steerassem" },
-	{ src: "ut-coursework/machine-elements/powertrain_CAD.png", topic: "ut-coursework/machine-elements/", alt: "powertrain CAD" },
-	{ src: "ut-coursework/machine-elements/sugarcrush_disassembled.jpg", topic: "ut-coursework/machine-elements/", alt: "sugarcrush disassembled" },
-	{ src: "ut-coursework/machine-elements/sugarcrush_full.jpg", topic: "ut-coursework/machine-elements/", alt: "sugarcrush full" },
-	{ src: "ut-coursework/machine-elements/team_pic.JPEG", topic: "ut-coursework/machine-elements/", alt: "team pic" },
-	{ src: "ut-coursework/machine-elements/v2_full.jpg", topic: "ut-coursework/machine-elements/", alt: "v2 full" },
-
-	// ----- Ut Coursework / Other Coursework  (links to: ut-coursework/other-coursework/) -----
-	{ src: "ut-coursework/other-coursework/IMG_2273.JPEG", topic: "ut-coursework/other-coursework/", alt: "IMG 2273" },
-	{ src: "ut-coursework/other-coursework/IMG_2274.JPEG", topic: "ut-coursework/other-coursework/", alt: "IMG 2274" },
-	{ src: "ut-coursework/other-coursework/IMG_2275.JPEG", topic: "ut-coursework/other-coursework/", alt: "IMG 2275" },
-	{ src: "ut-coursework/other-coursework/IMG_2276.JPEG", topic: "ut-coursework/other-coursework/", alt: "IMG 2276" },
-	{ src: "ut-coursework/other-coursework/IMG_2315.JPEG", topic: "ut-coursework/other-coursework/", alt: "IMG 2315" },
-	{ src: "ut-coursework/other-coursework/IMG_2316.JPEG", topic: "ut-coursework/other-coursework/", alt: "IMG 2316" },
-	{ src: "ut-coursework/other-coursework/IMG_2317.JPEG", topic: "ut-coursework/other-coursework/", alt: "IMG 2317" },
-	{ src: "ut-coursework/other-coursework/IMG_2318.JPEG", topic: "ut-coursework/other-coursework/", alt: "IMG 2318" },
-	{ src: "ut-coursework/other-coursework/IMG_2319.JPEG", topic: "ut-coursework/other-coursework/", alt: "IMG 2319" },
-	{ src: "ut-coursework/other-coursework/IMG_2415.JPEG", topic: "ut-coursework/other-coursework/", alt: "IMG 2415" },
-	{ src: "ut-coursework/other-coursework/IMG_2416.JPEG", topic: "ut-coursework/other-coursework/", alt: "IMG 2416" },
-	{ src: "ut-coursework/other-coursework/IMG_2463.JPEG", topic: "ut-coursework/other-coursework/", alt: "IMG 2463" },
-	{ src: "ut-coursework/other-coursework/IMG_2464.JPEG", topic: "ut-coursework/other-coursework/", alt: "IMG 2464" },
-	{ src: "ut-coursework/other-coursework/IMG_2465.JPEG", topic: "ut-coursework/other-coursework/", alt: "IMG 2465" },
-	{ src: "ut-coursework/other-coursework/IMG_2465.jpg", topic: "ut-coursework/other-coursework/", alt: "IMG 2465" },
-	{ src: "ut-coursework/other-coursework/Screenshot 2023-09-27 115020.png", topic: "ut-coursework/other-coursework/", alt: "Screenshot 2023 09 27 115020" },
-	{ src: "ut-coursework/other-coursework/Screenshot 2023-10-11 212338.png", topic: "ut-coursework/other-coursework/", alt: "Screenshot 2023 10 11 212338" },
-	{ src: "ut-coursework/other-coursework/Screenshot 2023-10-25 193626.png", topic: "ut-coursework/other-coursework/", alt: "Screenshot 2023 10 25 193626" },
-	{ src: "ut-coursework/other-coursework/Screenshot 2023-10-27 100657.png", topic: "ut-coursework/other-coursework/", alt: "Screenshot 2023 10 27 100657" },
-	{ src: "ut-coursework/other-coursework/Screenshot 2023-11-03 113739.png", topic: "ut-coursework/other-coursework/", alt: "Screenshot 2023 11 03 113739" },
-	{ src: "ut-coursework/other-coursework/Screenshot 2023-11-10 120010.png", topic: "ut-coursework/other-coursework/", alt: "Screenshot 2023 11 10 120010" },
-
-	// ----- Ut Coursework / Rmd  (links to: ut-coursework/rmd/) -----
-	{ src: "ut-coursework/rmd/firstbot_3dprints.JPEG", topic: "ut-coursework/rmd/", alt: "firstbot 3dprints" },
-	{ src: "ut-coursework/rmd/firstbot_electronics.JPEG", topic: "ut-coursework/rmd/", alt: "firstbot electronics" },
-	{ src: "ut-coursework/rmd/firstbot_full.JPEG", topic: "ut-coursework/rmd/", alt: "firstbot full" },
-	{ src: "ut-coursework/rmd/slidercrank_linkages.JPEG", topic: "ut-coursework/rmd/", alt: "slidercrank linkages" },
-	{ src: "ut-coursework/rmd/updated_slidercrank_linkages.JPEG", topic: "ut-coursework/rmd/", alt: "updated slidercrank linkages" },
-
-	// ----- Ut Coursework / Scientific Innovation  (links to: ut-coursework/scientific-innovation/) -----
-	{ src: "ut-coursework/scientific-innovation/Cover_ugs.png", topic: "ut-coursework/scientific-innovation/", alt: "Cover ugs" },
-	{ src: "ut-coursework/scientific-innovation/IMG_3224.jpg", topic: "ut-coursework/scientific-innovation/", alt: "IMG 3224" },
-	{ src: "ut-coursework/scientific-innovation/IMG_3312.jpg", topic: "ut-coursework/scientific-innovation/", alt: "IMG 3312" },
-	{ src: "ut-coursework/scientific-innovation/IMG_3358.jpg", topic: "ut-coursework/scientific-innovation/", alt: "IMG 3358" },
-	{ src: "ut-coursework/scientific-innovation/Screenshot 2024-11-27 191752.png", topic: "ut-coursework/scientific-innovation/", alt: "Screenshot 2024 11 27 191752" },
 ];
