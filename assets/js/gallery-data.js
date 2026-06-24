@@ -1,12 +1,7 @@
 // =============================================================================
-// gallery-data.js  —  master list of every photo shown in the Highlights reel
-// (portfolio.html) and the full gallery (gallery.html).
-//
-// HOW TO EDIT:
-//   * Each photo is ONE line below. Delete a line to remove that photo from
-//     BOTH the highlights reel and the gallery. Reorder by moving lines.
-//   * 'src' = image path (from site root); 'topic' = page it links to;
-//     'alt' = short caption.  Photos are grouped by topic.
+// gallery-data.js  —  master list of every photo (Highlights reel + gallery).
+// Delete a line to remove a photo from both. Grouped by topic.
+// (Corrupt <1KB image stubs are auto-excluded at generation.)
 // =============================================================================
 window.GALLERY = [
 
@@ -14,48 +9,44 @@ window.GALLERY = [
 	{ src: "lab-work/ascend/ATV_plaques.JPEG", topic: "lab-work/ascend/", alt: "ATV plaques" },
 	{ src: "lab-work/ascend/FULLATV_bare.JPEG", topic: "lab-work/ascend/", alt: "FULLATV bare" },
 	{ src: "lab-work/ascend/IMG_5452.JPG", topic: "lab-work/ascend/", alt: "IMG 5452" },
-	{ src: "lab-work/ascend/IMG_5897.jpg", topic: "lab-work/ascend/", alt: "IMG 5897" },
 	{ src: "lab-work/ascend/IMG_5945.jpg", topic: "lab-work/ascend/", alt: "IMG 5945" },
 	{ src: "lab-work/ascend/IMG_7224.jpg", topic: "lab-work/ascend/", alt: "IMG 7224" },
 	{ src: "lab-work/ascend/IMG_7258.jpg", topic: "lab-work/ascend/", alt: "IMG 7258" },
 	{ src: "lab-work/ascend/IMG_7268.jpg", topic: "lab-work/ascend/", alt: "IMG 7268" },
 	{ src: "lab-work/ascend/IMG_7370.jpg", topic: "lab-work/ascend/", alt: "IMG 7370" },
+	{ src: "lab-work/ascend/atv_electronics_panel.jpeg", topic: "lab-work/ascend/", alt: "atv electronics panel" },
+	{ src: "lab-work/ascend/atv_rearview.jpeg", topic: "lab-work/ascend/", alt: "atv rearview" },
+	{ src: "lab-work/ascend/atv_sideview.jpeg", topic: "lab-work/ascend/", alt: "atv sideview" },
 	{ src: "lab-work/ascend/battery_layout.jpg", topic: "lab-work/ascend/", alt: "battery layout" },
+	{ src: "lab-work/ascend/braking_prototyping.jpeg", topic: "lab-work/ascend/", alt: "braking prototyping" },
+	{ src: "lab-work/ascend/bucking_atv.jpg", topic: "lab-work/ascend/", alt: "bucking atv" },
 	{ src: "lab-work/ascend/capstan_installed.jpg", topic: "lab-work/ascend/", alt: "capstan installed" },
+	{ src: "lab-work/ascend/flight_motor_closeup.jpg", topic: "lab-work/ascend/", alt: "flight motor closeup" },
 	{ src: "lab-work/ascend/front_box_FEA.png", topic: "lab-work/ascend/", alt: "front box FEA" },
 	{ src: "lab-work/ascend/geared_assem.jpg", topic: "lab-work/ascend/", alt: "geared assem" },
 	{ src: "lab-work/ascend/greenbase_cut_installed.JPG", topic: "lab-work/ascend/", alt: "greenbase cut installed" },
 	{ src: "lab-work/ascend/greenbase_side.JPG", topic: "lab-work/ascend/", alt: "greenbase side" },
 	{ src: "lab-work/ascend/greenbase_top.JPG", topic: "lab-work/ascend/", alt: "greenbase top" },
+	{ src: "lab-work/ascend/linear_actuators.jpg", topic: "lab-work/ascend/", alt: "linear actuators" },
 	{ src: "lab-work/ascend/orangebase_installed.JPG", topic: "lab-work/ascend/", alt: "orangebase installed" },
 	{ src: "lab-work/ascend/orangebase_withgears.JPG", topic: "lab-work/ascend/", alt: "orangebase withgears" },
 	{ src: "lab-work/ascend/shaftFEA_failed.jpg", topic: "lab-work/ascend/", alt: "shaftFEA failed" },
 	{ src: "lab-work/ascend/shaftFEA_setup.JPEG", topic: "lab-work/ascend/", alt: "shaftFEA setup" },
+	{ src: "lab-work/ascend/standing_on_test_frames.jpg", topic: "lab-work/ascend/", alt: "standing on test frames" },
 	{ src: "lab-work/ascend/woodstand_1st.jpg", topic: "lab-work/ascend/", alt: "woodstand 1st" },
 
 	// ----- Lab Work / Nrg  (links to: lab-work/nrg/) -----
-	{ src: "lab-work/nrg/73582984927__EDA2FA97-D104-416B-BD33-827534170E0A.jpg", topic: "lab-work/nrg/", alt: "73582984927  EDA2FA97 D104 416B BD33 827534170E0A" },
-	{ src: "lab-work/nrg/IMG_3034.jpg", topic: "lab-work/nrg/", alt: "IMG 3034" },
-	{ src: "lab-work/nrg/IMG_3238.jpg", topic: "lab-work/nrg/", alt: "IMG 3238" },
-	{ src: "lab-work/nrg/IMG_3330.jpg", topic: "lab-work/nrg/", alt: "IMG 3330" },
-	{ src: "lab-work/nrg/IMG_3343.jpg", topic: "lab-work/nrg/", alt: "IMG 3343" },
-	{ src: "lab-work/nrg/IMG_3346.jpg", topic: "lab-work/nrg/", alt: "IMG 3346" },
+	{ src: "lab-work/nrg/early_dryerase_gripper.jpg", topic: "lab-work/nrg/", alt: "early dryerase gripper" },
+	{ src: "lab-work/nrg/orange_auger.jpg", topic: "lab-work/nrg/", alt: "orange auger" },
 
 	// ----- Lab Work / Sahm  (links to: lab-work/sahm/) -----
-	{ src: "lab-work/sahm/IMG_3138.jpg", topic: "lab-work/sahm/", alt: "IMG 3138" },
-	{ src: "lab-work/sahm/IMG_3191.jpg", topic: "lab-work/sahm/", alt: "IMG 3191" },
-	{ src: "lab-work/sahm/IMG_4433.jpg", topic: "lab-work/sahm/", alt: "IMG 4433" },
-	{ src: "lab-work/sahm/IMG_7935.jpg", topic: "lab-work/sahm/", alt: "IMG 7935" },
-	{ src: "lab-work/sahm/IMG_7942.jpg", topic: "lab-work/sahm/", alt: "IMG 7942" },
+	{ src: "lab-work/sahm/orthosis_closeup.jpg", topic: "lab-work/sahm/", alt: "orthosis closeup" },
+	{ src: "lab-work/sahm/speaking_onstage.jpg", topic: "lab-work/sahm/", alt: "speaking onstage" },
 
 	// ----- Lab Work / Trel  (links to: lab-work/trel/) -----
 	{ src: "lab-work/trel/COPV_in_cage.JPEG", topic: "lab-work/trel/", alt: "COPV in cage" },
 	{ src: "lab-work/trel/FGSE_layout.jpg", topic: "lab-work/trel/", alt: "FGSE layout" },
-	{ src: "lab-work/trel/GN2_Panel.jpg", topic: "lab-work/trel/", alt: "GN2 Panel" },
-	{ src: "lab-work/trel/LOX_Layout.jpg", topic: "lab-work/trel/", alt: "LOX Layout" },
 	{ src: "lab-work/trel/LOX_blowdown.jpeg", topic: "lab-work/trel/", alt: "LOX blowdown" },
-	{ src: "lab-work/trel/LOX_setup.jpg", topic: "lab-work/trel/", alt: "LOX setup" },
-	{ src: "lab-work/trel/RP_assem.jpg", topic: "lab-work/trel/", alt: "RP assem" },
 	{ src: "lab-work/trel/WFTS_Rebuild.JPEG", topic: "lab-work/trel/", alt: "WFTS Rebuild" },
 	{ src: "lab-work/trel/WFTS_running.jpg", topic: "lab-work/trel/", alt: "WFTS running" },
 	{ src: "lab-work/trel/pointed_rocket.jpg", topic: "lab-work/trel/", alt: "pointed rocket" },
@@ -63,12 +54,10 @@ window.GALLERY = [
 	// ----- Makerspace / Making  (links to: makerspace/making/) -----
 	{ src: "makerspace/making/MRI_holders.png", topic: "makerspace/making/", alt: "MRI holders" },
 	{ src: "makerspace/making/PH_full.jpg", topic: "makerspace/making/", alt: "PH full" },
-	{ src: "makerspace/making/Screenshot 2026-01-07 043813.png", topic: "makerspace/making/", alt: "Screenshot 2026 01 07 043813" },
 	{ src: "makerspace/making/bambu_hangars.JPEG", topic: "makerspace/making/", alt: "bambu hangars" },
 	{ src: "makerspace/making/broken_cfholder.png", topic: "makerspace/making/", alt: "broken cfholder" },
 	{ src: "makerspace/making/carvera_makera_general.png", topic: "makerspace/making/", alt: "carvera makera general" },
-	{ src: "makerspace/making/centrifuge_holder.jpg", topic: "makerspace/making/", alt: "centrifuge holder" },
-	{ src: "makerspace/making/cnc.jpg", topic: "makerspace/making/", alt: "cnc" },
+	{ src: "makerspace/making/cnc_online_training_layout.png", topic: "makerspace/making/", alt: "cnc online training layout" },
 	{ src: "makerspace/making/filament_grinder.jpg", topic: "makerspace/making/", alt: "filament grinder" },
 	{ src: "makerspace/making/filament_recycler.JPEG", topic: "makerspace/making/", alt: "filament recycler" },
 	{ src: "makerspace/making/phone_holder.jpg", topic: "makerspace/making/", alt: "phone holder" },
@@ -77,33 +66,25 @@ window.GALLERY = [
 	{ src: "makerspace/making/pipetteholder_lineup.jpg", topic: "makerspace/making/", alt: "pipetteholder lineup" },
 
 	// ----- Makerspace / Teaching  (links to: makerspace/teaching/) -----
-	{ src: "makerspace/teaching/CNCtraining_computer.jpg", topic: "makerspace/teaching/", alt: "CNCtraining computer" },
 	{ src: "makerspace/teaching/CNCtraining_machine.jpg", topic: "makerspace/teaching/", alt: "CNCtraining machine" },
 
-	// ----- Student Orgs / Battlebots / Goomba  (links to: student-orgs/battlebots/goomba/) -----
-	{ src: "student-orgs/battlebots/goomba/IMG_5384.JPEG", topic: "student-orgs/battlebots/goomba/", alt: "IMG 5384" },
-	{ src: "student-orgs/battlebots/goomba/IMG_5386.JPEG", topic: "student-orgs/battlebots/goomba/", alt: "IMG 5386" },
-	{ src: "student-orgs/battlebots/goomba/IMG_5387.JPEG", topic: "student-orgs/battlebots/goomba/", alt: "IMG 5387" },
-	{ src: "student-orgs/battlebots/goomba/IMG_5388.JPEG", topic: "student-orgs/battlebots/goomba/", alt: "IMG 5388" },
-	{ src: "student-orgs/battlebots/goomba/IMG_5962.JPEG", topic: "student-orgs/battlebots/goomba/", alt: "IMG 5962" },
-	{ src: "student-orgs/battlebots/goomba/IMG_5980.JPEG", topic: "student-orgs/battlebots/goomba/", alt: "IMG 5980" },
-	{ src: "student-orgs/battlebots/goomba/IMG_5984.JPEG", topic: "student-orgs/battlebots/goomba/", alt: "IMG 5984" },
-	{ src: "student-orgs/battlebots/goomba/IMG_5987.JPEG", topic: "student-orgs/battlebots/goomba/", alt: "IMG 5987" },
-	{ src: "student-orgs/battlebots/goomba/beetle_CAD.png", topic: "student-orgs/battlebots/goomba/", alt: "beetle CAD" },
-	{ src: "student-orgs/battlebots/goomba/beetle_plastic.jpg", topic: "student-orgs/battlebots/goomba/", alt: "beetle plastic" },
-	{ src: "student-orgs/battlebots/goomba/goomba_CAD.png", topic: "student-orgs/battlebots/goomba/", alt: "goomba CAD" },
-	{ src: "student-orgs/battlebots/goomba/goomba_destroyed.jpg", topic: "student-orgs/battlebots/goomba/", alt: "goomba destroyed" },
-	{ src: "student-orgs/battlebots/goomba/goomba_nospinner.jpg", topic: "student-orgs/battlebots/goomba/", alt: "goomba nospinner" },
-	{ src: "student-orgs/battlebots/goomba/goomba_smack.jpg", topic: "student-orgs/battlebots/goomba/", alt: "goomba smack" },
-
-	// ----- Student Orgs / Battlebots / Hawk  (links to: student-orgs/battlebots/hawk/) -----
-	{ src: "student-orgs/battlebots/hawk/73100792344__A889115B-53FF-43E5-B80D-CE225F018AE3.JPEG", topic: "student-orgs/battlebots/hawk/", alt: "73100792344  A889115B 53FF 43E5 B80D CE225F018AE3" },
-	{ src: "student-orgs/battlebots/hawk/IMG_4442.JPG", topic: "student-orgs/battlebots/hawk/", alt: "IMG 4442" },
-	{ src: "student-orgs/battlebots/hawk/IMG_4519.jpg", topic: "student-orgs/battlebots/hawk/", alt: "IMG 4519" },
-	{ src: "student-orgs/battlebots/hawk/Screenshot 2024-11-27 161654.png", topic: "student-orgs/battlebots/hawk/", alt: "Screenshot 2024 11 27 161654" },
-	{ src: "student-orgs/battlebots/hawk/hawkCAD_topview.jpeg", topic: "student-orgs/battlebots/hawk/", alt: "hawkCAD topview" },
-	{ src: "student-orgs/battlebots/hawk/hawk_firstbase.JPG", topic: "student-orgs/battlebots/hawk/", alt: "hawk firstbase" },
-	{ src: "student-orgs/battlebots/hawk/hawk_v2.jpg", topic: "student-orgs/battlebots/hawk/", alt: "hawk v2" },
+	// ----- Student Orgs / Battlebots  (links to: student-orgs/battlebots/) -----
+	{ src: "student-orgs/battlebots/gemini_electronics.jpeg", topic: "student-orgs/battlebots/", alt: "gemini electronics" },
+	{ src: "student-orgs/battlebots/gemini_spinning.JPG", topic: "student-orgs/battlebots/", alt: "gemini spinning" },
+	{ src: "student-orgs/battlebots/mcdonalds_gemini.JPG", topic: "student-orgs/battlebots/", alt: "mcdonalds gemini" },
+	{ src: "student-orgs/battlebots/goomba/IMG_5386.JPEG", topic: "student-orgs/battlebots/", alt: "IMG 5386" },
+	{ src: "student-orgs/battlebots/goomba/IMG_5387.JPEG", topic: "student-orgs/battlebots/", alt: "IMG 5387" },
+	{ src: "student-orgs/battlebots/goomba/beetle_CAD.png", topic: "student-orgs/battlebots/", alt: "beetle CAD" },
+	{ src: "student-orgs/battlebots/goomba/beetle_plastic.jpg", topic: "student-orgs/battlebots/", alt: "beetle plastic" },
+	{ src: "student-orgs/battlebots/goomba/goomba_CAD.png", topic: "student-orgs/battlebots/", alt: "goomba CAD" },
+	{ src: "student-orgs/battlebots/goomba/goomba_destroyed.jpg", topic: "student-orgs/battlebots/", alt: "goomba destroyed" },
+	{ src: "student-orgs/battlebots/goomba/goomba_nospinner.jpg", topic: "student-orgs/battlebots/", alt: "goomba nospinner" },
+	{ src: "student-orgs/battlebots/goomba/goomba_smack.jpg", topic: "student-orgs/battlebots/", alt: "goomba smack" },
+	{ src: "student-orgs/battlebots/hawk/blacknpurple_v2.jpg", topic: "student-orgs/battlebots/", alt: "blacknpurple v2" },
+	{ src: "student-orgs/battlebots/hawk/hawkCAD_topview.jpeg", topic: "student-orgs/battlebots/", alt: "hawkCAD topview" },
+	{ src: "student-orgs/battlebots/hawk/hawk_firstbase.JPG", topic: "student-orgs/battlebots/", alt: "hawk firstbase" },
+	{ src: "student-orgs/battlebots/hawk/hawk_v2.jpg", topic: "student-orgs/battlebots/", alt: "hawk v2" },
+	{ src: "student-orgs/battlebots/hawk/topview_CAD.png", topic: "student-orgs/battlebots/", alt: "topview CAD" },
 
 	// ----- Unm / Flamey  (links to: unm/flamey/) -----
 	{ src: "unm/flamey/flamey_cover.jpg", topic: "unm/flamey/", alt: "flamey cover" },
