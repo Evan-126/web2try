@@ -34,7 +34,7 @@ I developed a mounting system using 80/20 aluminum profile that we already had a
 
 ## Linear Actuator Integration
 
-<img class="wrap-right" src="../../images/placeholders/ascend-linear-actuator.svg" alt="Linear actuator integration — replace with your photo" />
+<img class="wrap-right" src="IMG_7370.jpg" alt="CNC-machining a custom aluminum adapter plate for the linear actuators" />
 
 I worked alongside a production team member to develop the mounting system for the vehicle's linear actuators.
 
@@ -46,7 +46,7 @@ To increase rigidity and provide future mounting locations for additional system
 
 ## Test Infrastructure
 
-<img class="wrap-left" src="../../images/placeholders/ascend-test-infra.svg" alt="Test infrastructure — replace with your photo" />
+<img class="wrap-left" src="woodstand_1st.jpg" alt="First wooden test stand for flight-motor and wing-mount testing" />
 
 I independently designed, sourced, fabricated, and validated two dedicated test stands.
 
