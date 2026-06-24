@@ -3987,3 +3987,9 @@ input, select, textarea {
   color: #aaa;
 }
 
+
+/* ---- Hub banner background slideshow (added) ---- */
+.banner-slideshow { position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0; overflow: hidden; }
+.banner-slideshow .slide { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-size: cover; background-position: center; opacity: 0; transition: opacity 1.5s ease; }
+.banner-slideshow .slide.active { opacity: 1; }
+#banner > .inner { position: relative; z-index: 2; }
