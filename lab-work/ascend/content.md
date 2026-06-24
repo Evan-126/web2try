@@ -8,6 +8,8 @@ Our current platform is a stripped-down ATV that has been converted into a remot
 
 I joined ASCEND in January 2025. During my involvement, I have contributed to mechanical design, structural analysis, fabrication, subsystem integration, testing, and leadership. By the time I assumed the role of Chief Engineer in June 2026, every major subsystem of the vehicle had been physically represented and integrated on the platform.
 
+<img class="feature-center" src="bucking_atv.jpg" alt="The ATV reared up during a test, paraglider wing attached" />
+
 ---
 
 # Major Technical Contributions
@@ -24,7 +26,7 @@ I took measurements, created the CAD model, performed FEA analysis, sourced mate
 
 ## Flight Motor Mounting
 
-<img class="wrap-left" src="../../images/placeholders/ascend-flight-motor.svg" alt="Flight motor mounting — replace with your photo" />
+<img class="wrap-left" src="flight_motor_closeup.jpg" alt="Close-up of the flight motor and propeller mounted to the frame" />
 
 For initial testing of the flight motor, we needed an inexpensive and adjustable mounting solution that could connect the motor's hexagonal bolt pattern to a wooden test structure.
 
