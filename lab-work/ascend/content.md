@@ -1,4 +1,3 @@
-# ASCEND Contributions
 
 ## Overview
 
@@ -117,5 +116,3 @@ ASCEND has provided me with opportunities to contribute across nearly every stag
 What began as a stripped-down ATV chassis has evolved into a nearly flight-capable vehicle containing integrated propulsion, steering, braking, wing-control, and electronics systems. Contributing to that transformation—and helping other students develop their own engineering skills along the way—has been one of the most rewarding experiences of my engineering career.
 
 As the project continues toward flight testing, I remain actively involved in guiding technical development and supporting the team through its next stage of growth.
-
-<img class="feature-center" src="../../images/placeholders/ascend-team.svg" alt="The whole ASCEND team — replace with your team photo" />
