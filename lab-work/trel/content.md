@@ -10,6 +10,8 @@ I initially joined the team to learn more about fluid systems and quickly became
 
 ---
 
+> **Note:** Due to U.S. ITAR restrictions, some images on this page were taken from the lab's publicly available social media, and others are stock images.
+
 # Major Technical Contributions
 
 ## Fire Suppression (FireX) System

@@ -2,6 +2,8 @@
 
 ## Overview
 
+<img class="wrap-right" src="atv_sideview.jpeg" alt="Side view of the integrated ATV testbed" />
+
 ASCEND (Aerial Solutions to Combat Emergencies and Natural Disasters) is a student engineering organization focused on developing innovative emergency-response aircraft. The team is currently competing in the GoAero competition, where we earned a GoAero Innovation Award for our vehicle concept.
 
 Our current platform is a stripped-down ATV that has been converted into a remotely operated aircraft testbed. The vehicle integrates electric propulsion, a powered flight motor, a paraglider wing, and numerous custom mechanical and electrical systems. Every degree of freedom—from steering and braking to wing control and propulsion—is being adapted for remote operation, with the long-term goal of autonomous control.
@@ -17,6 +19,8 @@ I joined ASCEND in January 2025. During my involvement, I have contributed to me
 ## Front Frame
 
 <img class="wrap-right" src="front_box_FEA.png" alt="Front frame FEA" />
+
+<img class="wrap-left" src="atv_electronics_panel.jpeg" alt="Electronics and battery layout on the vehicle" />
 
 To balance the ATV and provide mounting locations for batteries and electronics, we needed a front frame integrated into an existing structure with four irregular mounting points located on different planes.
 
@@ -49,6 +53,8 @@ To increase rigidity and provide future mounting locations for additional system
 ## Test Infrastructure
 
 <img class="wrap-left" src="woodstand_1st.jpg" alt="First wooden test stand for flight-motor and wing-mount testing" />
+
+<img class="wrap-right" src="standing_on_test_frames.jpg" alt="Standing on the test stands to demonstrate their durability" />
 
 I independently designed, sourced, fabricated, and validated two dedicated test stands.
 
@@ -103,6 +109,8 @@ As the ATV approaches flight readiness, I frequently serve as Test Coordinator. 
 ---
 
 # Impact
+
+<img class="wrap-right" src="atv_rearview.jpeg" alt="Rear view of the assembled vehicle and flight propeller" />
 
 ASCEND has provided me with opportunities to contribute across nearly every stage of the engineering process, from early concept development and analysis to fabrication, testing, integration, and leadership.
 
