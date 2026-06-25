@@ -28,30 +28,13 @@ window.GALLERY = [
 	{ src: "coursework/ut/machine-elements/Screenshot 2025-11-08 102828.png", topic: "coursework/ut/machine-elements/", alt: "Screenshot 2025 11 08 102828" },
 	{ src: "coursework/ut/machine-elements/Screenshot 2025-11-08 103255.png", topic: "coursework/ut/machine-elements/", alt: "Screenshot 2025 11 08 103255" },
 	{ src: "coursework/ut/machine-elements/chassis_CAD.png", topic: "coursework/ut/machine-elements/", alt: "chassis CAD" },
-	{ src: "coursework/ut/machine-elements/final_ISOVIEW.JPEG", topic: "coursework/ut/machine-elements/", alt: "final ISOVIEW" },
-	{ src: "coursework/ut/machine-elements/final_nosteering.JPEG", topic: "coursework/ut/machine-elements/", alt: "final nosteering" },
 	{ src: "coursework/ut/machine-elements/final_steerassem.jpg", topic: "coursework/ut/machine-elements/", alt: "final steerassem" },
 	{ src: "coursework/ut/machine-elements/powertrain_CAD.png", topic: "coursework/ut/machine-elements/", alt: "powertrain CAD" },
 	{ src: "coursework/ut/machine-elements/sugarcrush_disassembled.jpg", topic: "coursework/ut/machine-elements/", alt: "sugarcrush disassembled" },
 	{ src: "coursework/ut/machine-elements/sugarcrush_full.jpg", topic: "coursework/ut/machine-elements/", alt: "sugarcrush full" },
-	{ src: "coursework/ut/machine-elements/team_pic.JPEG", topic: "coursework/ut/machine-elements/", alt: "team pic" },
 	{ src: "coursework/ut/machine-elements/v2_full.jpg", topic: "coursework/ut/machine-elements/", alt: "v2 full" },
 
 	// ----- Coursework / Ut / Other Coursework  (links to: coursework/ut/other-coursework/) -----
-	{ src: "coursework/ut/other-coursework/IMG_2273.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2273" },
-	{ src: "coursework/ut/other-coursework/IMG_2274.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2274" },
-	{ src: "coursework/ut/other-coursework/IMG_2275.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2275" },
-	{ src: "coursework/ut/other-coursework/IMG_2276.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2276" },
-	{ src: "coursework/ut/other-coursework/IMG_2315.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2315" },
-	{ src: "coursework/ut/other-coursework/IMG_2316.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2316" },
-	{ src: "coursework/ut/other-coursework/IMG_2317.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2317" },
-	{ src: "coursework/ut/other-coursework/IMG_2318.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2318" },
-	{ src: "coursework/ut/other-coursework/IMG_2319.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2319" },
-	{ src: "coursework/ut/other-coursework/IMG_2415.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2415" },
-	{ src: "coursework/ut/other-coursework/IMG_2416.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2416" },
-	{ src: "coursework/ut/other-coursework/IMG_2463.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2463" },
-	{ src: "coursework/ut/other-coursework/IMG_2464.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2464" },
-	{ src: "coursework/ut/other-coursework/IMG_2465.JPEG", topic: "coursework/ut/other-coursework/", alt: "IMG 2465" },
 	{ src: "coursework/ut/other-coursework/IMG_2465.jpg", topic: "coursework/ut/other-coursework/", alt: "IMG 2465" },
 	{ src: "coursework/ut/other-coursework/Screenshot 2023-09-27 115020.png", topic: "coursework/ut/other-coursework/", alt: "Screenshot 2023 09 27 115020" },
 	{ src: "coursework/ut/other-coursework/Screenshot 2023-10-11 212338.png", topic: "coursework/ut/other-coursework/", alt: "Screenshot 2023 10 11 212338" },
@@ -59,13 +42,6 @@ window.GALLERY = [
 	{ src: "coursework/ut/other-coursework/Screenshot 2023-10-27 100657.png", topic: "coursework/ut/other-coursework/", alt: "Screenshot 2023 10 27 100657" },
 	{ src: "coursework/ut/other-coursework/Screenshot 2023-11-03 113739.png", topic: "coursework/ut/other-coursework/", alt: "Screenshot 2023 11 03 113739" },
 	{ src: "coursework/ut/other-coursework/Screenshot 2023-11-10 120010.png", topic: "coursework/ut/other-coursework/", alt: "Screenshot 2023 11 10 120010" },
-
-	// ----- Coursework / Ut / Rmd  (links to: coursework/ut/rmd/) -----
-	{ src: "coursework/ut/rmd/firstbot_3dprints.JPEG", topic: "coursework/ut/rmd/", alt: "firstbot 3dprints" },
-	{ src: "coursework/ut/rmd/firstbot_electronics.JPEG", topic: "coursework/ut/rmd/", alt: "firstbot electronics" },
-	{ src: "coursework/ut/rmd/firstbot_full.JPEG", topic: "coursework/ut/rmd/", alt: "firstbot full" },
-	{ src: "coursework/ut/rmd/slidercrank_linkages.JPEG", topic: "coursework/ut/rmd/", alt: "slidercrank linkages" },
-	{ src: "coursework/ut/rmd/updated_slidercrank_linkages.JPEG", topic: "coursework/ut/rmd/", alt: "updated slidercrank linkages" },
 
 	// ----- Coursework / Ut / Scientific Innovation  (links to: coursework/ut/scientific-innovation/) -----
 	{ src: "coursework/ut/scientific-innovation/Cover_ugs.png", topic: "coursework/ut/scientific-innovation/", alt: "Cover ugs" },
@@ -86,6 +62,7 @@ window.GALLERY = [
 	{ src: "lab-work/ascend/atv_electronics_panel.jpeg", topic: "lab-work/ascend/", alt: "atv electronics panel" },
 	{ src: "lab-work/ascend/atv_rearview.jpeg", topic: "lab-work/ascend/", alt: "atv rearview" },
 	{ src: "lab-work/ascend/atv_sideview.jpeg", topic: "lab-work/ascend/", alt: "atv sideview" },
+	{ src: "lab-work/ascend/atv_steering_setup.JPG", topic: "lab-work/ascend/", alt: "atv steering setup" },
 	{ src: "lab-work/ascend/battery_layout.jpg", topic: "lab-work/ascend/", alt: "battery layout" },
 	{ src: "lab-work/ascend/braking_prototyping.jpeg", topic: "lab-work/ascend/", alt: "braking prototyping" },
 	{ src: "lab-work/ascend/bucking_atv.jpg", topic: "lab-work/ascend/", alt: "bucking atv" },
@@ -119,10 +96,12 @@ window.GALLERY = [
 	{ src: "lab-work/trel/WFTS_Rebuild.JPEG", topic: "lab-work/trel/", alt: "WFTS Rebuild" },
 	{ src: "lab-work/trel/WFTS_running.jpg", topic: "lab-work/trel/", alt: "WFTS running" },
 	{ src: "lab-work/trel/pointed_rocket.jpg", topic: "lab-work/trel/", alt: "pointed rocket" },
+	{ src: "lab-work/trel/trel_GSE_pancake.jpg", topic: "lab-work/trel/", alt: "trel GSE pancake" },
 
 	// ----- Makerspace / Making  (links to: makerspace/making/) -----
 	{ src: "makerspace/making/MRI_holders.png", topic: "makerspace/making/", alt: "MRI holders" },
 	{ src: "makerspace/making/PH_full.jpg", topic: "makerspace/making/", alt: "PH full" },
+	{ src: "makerspace/making/VDS_reusable_syringecap.jpeg", topic: "makerspace/making/", alt: "VDS reusable syringecap" },
 	{ src: "makerspace/making/bambu_hangars.JPEG", topic: "makerspace/making/", alt: "bambu hangars" },
 	{ src: "makerspace/making/broken_cfholder.png", topic: "makerspace/making/", alt: "broken cfholder" },
 	{ src: "makerspace/making/carvera_makera_general.png", topic: "makerspace/making/", alt: "carvera makera general" },
@@ -139,10 +118,13 @@ window.GALLERY = [
 
 	// ----- Student Orgs / Adapt  (links to: student-orgs/adapt/) -----
 	{ src: "student-orgs/adapt/dogblade_FEA.png", topic: "student-orgs/adapt/", alt: "dogblade FEA" },
+	{ src: "student-orgs/adapt/dogprosthetic_full.PNG", topic: "student-orgs/adapt/", alt: "dogprosthetic full" },
 	{ src: "student-orgs/adapt/dogprosthetic_poster.jpg", topic: "student-orgs/adapt/", alt: "dogprosthetic poster" },
 	{ src: "student-orgs/adapt/goatprosthetic_poster.jpg", topic: "student-orgs/adapt/", alt: "goatprosthetic poster" },
 
 	// ----- Student Orgs / Battlebots  (links to: student-orgs/battlebots/) -----
+	{ src: "student-orgs/battlebots/anklebiter_CAD.PNG", topic: "student-orgs/battlebots/", alt: "anklebiter CAD" },
+	{ src: "student-orgs/battlebots/anklebiter_under_assembly.JPG", topic: "student-orgs/battlebots/", alt: "anklebiter under assembly" },
 	{ src: "student-orgs/battlebots/gemini_electronics.jpeg", topic: "student-orgs/battlebots/", alt: "gemini electronics" },
 	{ src: "student-orgs/battlebots/gemini_spinning.JPG", topic: "student-orgs/battlebots/", alt: "gemini spinning" },
 	{ src: "student-orgs/battlebots/mcdonalds_gemini.JPG", topic: "student-orgs/battlebots/", alt: "mcdonalds gemini" },

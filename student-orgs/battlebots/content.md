@@ -56,6 +56,10 @@ Through these designs, I began to appreciate the importance of balancing weapon 
 
 ### Anklebiter
 
+<img class="wrap-right" src="anklebiter_CAD.PNG" alt="Anklebiter CAD" />
+
+<img class="wrap-left" src="anklebiter_under_assembly.JPG" alt="Anklebiter under assembly" />
+
 The culmination of those lessons was Anklebiter.
 
 Developed in collaboration with another ExD member, Anklebiter was designed around a simple philosophy: prioritize control, reliability, and maneuverability while maintaining an effective weapon.

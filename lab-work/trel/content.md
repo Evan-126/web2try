@@ -42,6 +42,8 @@ These projects provided valuable experience in fluid-system design, component se
 
 <img class="wrap-right" src="FGSE_layout.jpg" alt="Fluid ground support equipment panels" />
 
+<img class="wrap-left" src="trel_GSE_pancake.jpg" alt="GSE trailer at the Pancake, TX test site" />
+
 One of the largest projects completed during my tenure as Ground Fluids Responsible Engineer was the development of a mobile Ground Support Equipment (GSE) trailer.
 
 As vehicle requirements evolved, our fluid systems could no longer exist as independent assemblies. They needed to function as a cohesive field-deployable platform capable of supporting transportation, setup, testing, and launch operations. I led the redesign and integration of numerous fluid subsystems onto a single trailer platform, incorporating liquid oxygen, RP-1, gaseous nitrogen, gaseous hydrogen, gaseous oxygen, helium, and water systems.

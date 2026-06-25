@@ -4090,3 +4090,6 @@ input, select, textarea {
 @media screen and (max-width: 736px) {
 	.md-content img.wrap-left, .md-content img.wrap-right { float: none; width: 100%; max-width: 100%; margin: 1em 0; }
 }
+
+/* A lone/last portfolio tile spanning the full row (e.g. Coursework) */
+.tiles article.tile-full { width: 100%; }
