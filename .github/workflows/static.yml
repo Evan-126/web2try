@@ -31,6 +31,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Many photos are stored in Git LFS; without this they deploy as pointer files
+          lfs: true
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
