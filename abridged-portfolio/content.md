@@ -62,4 +62,3 @@ With ADAPT Texas and Safe in Austin Rescue Ranch, our team designed low-cost, 3D
 
 <!-- Add a line here about what you personally did on ADAPT, e.g. "- **My role.** ..." -->
 
-[Full ADAPT page →](../student-orgs/adapt/)
