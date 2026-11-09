@@ -1,3 +1,11 @@
+<!--
+  Editing this page: this file is plain Markdown. Change any text freely.
+  - A line starting with "- **Title.**" is one bullet.
+  - <img ... src="..."> lines are photos; change the src path to swap a photo.
+  - <div class="img-pair"> holds two photos shown side by side.
+  - Keep the <h2 id="..."> lines as they are: the jump buttons at the top use them.
+-->
+
 <h2 id="trel">Texas Rocket Engineering Lab (TREL)</h2>
 
 <img class="feature-center" src="../lab-work/trel/pointed_rocket.jpg" alt="TREL rocket on the launch rail at sunset" />
@@ -51,5 +59,7 @@ With ADAPT Texas and Safe in Austin Rescue Ranch, our team designed low-cost, 3D
 
 - **"Pawsthetic" for Halo,** a Great Pyrenees with two front-limb amputations whose residual limbs could not bear pressure, on a ranch built on an incline that ruled out wheels. We cast and 3D-scanned her legs, iterated in SolidWorks, and refit PLA, PETG, and TPU prototypes at the ranch monthly. FEA of the blade showed about 10×10⁻⁹ mm maximum deformation under 180 N.
 - **Goat hoof prosthesis.** Took anatomical measurements, iterated the CAD to fix early balance and dragging problems, and validated it with SolidWorks FEA (6.07×10⁻⁷ mm under 180 N). Next steps were a molded rubber tread and a machined pyramid connector so parts can be swapped.
+
+<!-- Add a line here about what you personally did on ADAPT, e.g. "- **My role.** ..." -->
 
 [Full ADAPT page →](../student-orgs/adapt/)
