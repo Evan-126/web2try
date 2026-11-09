@@ -4100,3 +4100,8 @@ input, select, textarea {
 @media screen and (max-width: 736px) {
 	.md-content .img-pair { grid-template-columns: 1fr; }
 }
+
+/* Abridged portfolio: jump buttons stay pinned to the top while scrolling */
+.jump-nav { position: sticky; top: 0; z-index: 100; background: #242943; margin-left: 0; padding: 0.75em 0; box-shadow: 0 1px 0 rgba(212, 212, 255, 0.1); }
+.jump-nav li { padding-left: 0; padding-right: 0.75em; }
+.md-content h2[id] { scroll-margin-top: 4.5em; }
