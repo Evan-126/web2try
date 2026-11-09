@@ -16,8 +16,6 @@ I initially joined the team to learn more about fluid systems and quickly became
 
 ## Fire Suppression (FireX) System
 
-<img class="wrap-right" src="../../images/placeholders/trel-firex.svg" alt="Fire suppression system — replace with your photo" />
-
 One of my first major independent projects was the development of the FireX system.
 
 The objective was to create a dedicated water-based fire suppression system capable of protecting the engine bay during testing operations. Starting from a blank sheet of paper, I designed the system architecture, selected storage tanks, determined line routing, sized tubing, sourced nozzles, and specified components capable of both broad engine-bay coverage and targeted protection of high-risk ignition points.
@@ -56,8 +54,6 @@ The completed trailer became the backbone of operations at our Pancake, Texas te
 
 ## Igniter Systems
 
-<img class="wrap-left" src="../../images/placeholders/trel-igniter.svg" alt="Igniter systems — replace with your photo" />
-
 I helped lead the development and integration of the gaseous hydrogen and gaseous oxygen systems used to support engine ignition.
 
 These systems incorporated electronically controlled pressure regulators and required close coordination with electronics, software, and propulsion teams to ensure safe and reliable operation. The work involved component selection, plumbing design, integration planning, and testing support.
@@ -68,8 +64,6 @@ As vehicle requirements evolved, these systems underwent multiple design revisio
 
 ## Purge and Electronics Protection Systems
 
-<img class="wrap-right" src="../../images/placeholders/trel-purge.svg" alt="Purge / electronics protection — replace with your photo" />
-
 To improve operational reliability and safety, I designed and implemented a dedicated purge system for critical electronics enclosures.
 
 The system continuously supplied clean gaseous nitrogen to junction boxes and electrical hardware, preventing contamination and reducing the risk of hazardous gas accumulation near sensitive electronics. This became particularly important when operating around cryogenic oxidizers, fuels, and ignition hardware, where maintaining controlled environments around electrical systems is essential.
@@ -79,8 +73,6 @@ Although relatively small compared to the larger fluid systems, this project hig
 ---
 
 ## Automation and Controls
-
-<img class="wrap-left" src="../../images/placeholders/trel-automation.svg" alt="Automation & controls — replace with your photo" />
 
 In addition to mechanical and fluid-system design, I contributed to automation efforts supporting cryogenic operations.
 

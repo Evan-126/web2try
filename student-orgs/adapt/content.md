@@ -16,8 +16,6 @@ Over the course of the semester, our team designed and prototyped prosthetics to
 
 ## Behind the Scenes
 
-*A few favorite moments from the project that didn't make it onto the posters. Replace the placeholders below with your own photos — drop them into this folder and update the image names.*
+*A few favorite moments from the project that didn't make it onto the posters.*
 
 <img class="feature-center" src="dogprosthetic_full.PNG" alt="The completed dog prosthetic" />
-
-<img class="feature-center" src="../../images/placeholders/adapt-heartwarming-2.svg" alt="Add a photo — replace me" />

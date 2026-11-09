@@ -24,8 +24,7 @@ Most pages are built on the **HTML5 UP "Forty"** template (see `README.txt`). Th
 ### Blog system
 - `posts/posts.json` is the manifest: an array of `{ "title", "file" }` objects. **Add a post by dropping its HTML in `posts/` and adding an entry here.**
 - `blog.html` loads `assets/js/blog.js`, which `fetch`es `posts/posts.json` and renders cards into `#posts`. The post date is derived from the **first 10 chars of the filename** (expects a `YYYY-MM-DD` prefix).
-- `order_by_date.js` (repo root) is an **alternate, unused** renderer — it fetches `posts.json` (different relative path) and sorts by date via regex. `blog.html` does not load it.
-- ⚠️ Filenames mix `-` and `_` separators (e.g. `2025-10-22_SuperLimbs.html`). The `file` value in `posts.json` must match the real filename **exactly** or the post link 404s — copy/paste the filename rather than retyping it. The date is parsed from the first 10 chars, so keep a literal `YYYY-MM-DD` prefix (note `2025-10-3-...` has no zero-padded day and won't parse to a valid date).
+- ⚠️ Filenames mix `-` and `_` separators (e.g. `2025-10-22_SuperLimbs.html`). The `file` value in `posts.json` must match the real filename **exactly** or the post link 404s — copy/paste the filename rather than retyping it. The date is parsed from the first 10 chars, so keep a literal `YYYY-MM-DD` prefix (zero-pad the month and day, e.g. `2025-10-03`).
 
 ### Project content & images
 - Project write-ups live in per-topic folders (`ASCEND/`, `ME302/`, `ME338/`, `ME380R/`, `makerspace/`, `goomba/`, etc.), mixing source `.md` (e.g. `ASCEND/ascend.md`, authored before hand-conversion to HTML), generated `.html`, and image/video assets in the same folder.

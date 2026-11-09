@@ -11,8 +11,6 @@
 
 ## 4Wheeler
 
-<img class="wrap-right" src="../../images/placeholders/4wheeler.svg" alt="4Wheeler — replace with your photo" />
-
 *Coming soon — write about the 4wheeler project here.*
 
 ## Flamethrower
