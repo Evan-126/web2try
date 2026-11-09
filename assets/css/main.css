@@ -4093,3 +4093,10 @@ input, select, textarea {
 
 /* A lone/last portfolio tile spanning the full row (e.g. Coursework) */
 .tiles article.tile-full { width: 100%; }
+
+/* Abridged portfolio: two photos side by side above each project's highlights */
+.md-content .img-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1em; align-items: center; margin: 1.5em 0; }
+.md-content .img-pair img { width: 100%; max-height: 380px; object-fit: contain; border-radius: 5px; }
+@media screen and (max-width: 736px) {
+	.md-content .img-pair { grid-template-columns: 1fr; }
+}
