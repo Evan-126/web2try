@@ -10,21 +10,21 @@
 
 <img class="feature-center" src="../lab-work/trel/pointed_rocket.jpg" alt="TREL rocket on the launch rail at sunset" />
 
-From January 2024 I designed, built, and tested the ground fluid systems for TREL's kerolox (RP-1 / liquid oxygen) rocket, covering LOx, RP-1, GN₂, helium, GH₂, GOx, and water. In my second semester I became Ground Fluids Responsible Engineer, owning the P&IDs and integration of nearly all ground-fluid hardware.
+From January 2024 I designed, built, and tested the ground fluid systems for TREL's Halcyon rocket, covering LOx, RP-1, GN₂, helium, GH₂, GOx, and water. In my second semester I became Ground Fluids Responsible Engineer, owning the P&IDs and integration of nearly all ground-fluid hardware.
 
 <div class="img-pair">
 <img src="../lab-work/trel/FGSE_layout.jpg" alt="Fluid ground support equipment panels" />
 <img src="../lab-work/trel/LOX_blowdown.jpeg" alt="Liquid oxygen system blowdown test" />
 </div>
 
-- **Mobile GSE trailer.** Redesigned and integrated the LOx, RP-1, nitrogen, hydrogen, oxygen, helium, and water subsystems onto one field-deployable trailer, coordinating routing, mounting, maintenance access, and safety with the structures, electronics, software, and propulsion teams. It became the backbone of cold-flow testing at our Pancake, TX site.
-- **FireX fire suppression.** Designed a water-based engine-bay suppression system from a blank page: architecture, tank selection, line routing, tube sizing, and nozzles for broad coverage plus targeted ignition points. Then built it and verified it in test.
+- **Mobile GSE trailer.** Redesigned and integrated the LOx, RP-1, nitrogen, hydrogen, oxygen, helium, and water subsystems onto one field-deployable trailer, coordinating routing, mounting, maintenance access, and safety with the structures, electronics, software, and propulsion teams. It became the backbone of cold-flow testing at our Pancake, TX site. Later it would serve as the GSE station for static fires and eventually a launch attempt.
+- **FireX fire suppression.** Designed a water-based engine-bay suppression system from a blank page: architecture, tank selection, line routing, tube sizing, and nozzles for broad coverage plus targeted ignition points. Then built it and it was later verified through tests.
 - **LOx fill automation.** Wrote a state-machine controller running a bang-bang valve strategy to hold tank pressure inside its band during filling, cutting operator workload and making fills repeatable.
 
 - **Igniter and purge systems.** Helped lead the GH₂/GOx igniter feed systems with electronically controlled regulators, and designed a continuous GN₂ purge that keeps electronics enclosures free of hazardous gas.
 - **Testing.** Supported five cold-flow tests, COPV proof and autofrettage, strain-gauge installation, and differential-pressure sensor validation on the Water Flow Test Stand, whose valve and orifice section I rebuilt.
 
-*Some images come from the lab's public social media because of ITAR restrictions.* [Full TREL write-up →](../lab-work/trel/)
+*Some images come from the lab's public social media because of ITAR restrictions.*
 
 <h2 id="ascend">ASCEND</h2>
 
@@ -44,7 +44,7 @@ ASCEND is building an emergency-response aircraft for the GoAero competition, wh
 - **Braking system.** Designed an adapter that fit an off-the-shelf replacement brake to the originally unusable system, with provisions for future linear-actuator control. Braking improved substantially in testing.
 - **Test stands.** Designed and built two stands for under $30 each from hardware-store material: one for flight-motor and wing-mount tests, one that places the actuators in their on-vehicle geometry for brake testing.
 
-[Full ASCEND write-up →](../lab-work/ascend/)
+
 
 <h2 id="adapt">ADAPT: animal prosthetics</h2>
 
