@@ -4105,3 +4105,8 @@ input, select, textarea {
 .jump-nav { position: sticky; top: 0; z-index: 100; background: #242943; margin-left: 0; padding: 0.75em 0; box-shadow: 0 1px 0 rgba(212, 212, 255, 0.1); }
 .jump-nav li { padding-left: 0; padding-right: 0.75em; }
 .md-content h2[id] { scroll-margin-top: 4.5em; }
+
+/* Abridged portfolio: photo captions */
+.md-content figure { margin: 0; }
+.md-content figcaption { font-size: 0.85em; font-style: italic; opacity: 0.75; text-align: center; margin: 0.4em 0 0 0; line-height: 1.4; }
+.md-content figcaption:empty { display: none; }

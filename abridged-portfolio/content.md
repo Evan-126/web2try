@@ -4,20 +4,31 @@
   - A line starting with "- **Title.**" is one bullet.
   - <img ... src="..."> lines are photos; change the src path to swap a photo.
   - <div class="img-pair"> holds two photos shown side by side.
+  - Each photo sits in a <figure>. Type its caption between <figcaption> and </figcaption>;
+    an empty figcaption shows nothing on the page.
   - Keep the <h2 id="..."> lines as they are: the jump buttons at the top use them.
 -->
 
 <h2 id="trel">Texas Rocket Engineering Lab (TREL)</h2>
 
+<figure>
 <img class="feature-center" src="../lab-work/trel/pointed_rocket.jpg" alt="TREL rocket on the launch rail at sunset" />
+<figcaption></figcaption>
+</figure>
 
 ### Objective
 
 From January 2024 I designed, built, and tested the ground fluid systems for TREL's Halcyon rocket, covering LOx, RP-1, GN₂, helium, GH₂, GOx, and water. In my second semester I became Ground Fluids Responsible Engineer, owning the P&IDs and integration of nearly all ground-fluid hardware.
 
 <div class="img-pair">
+<figure>
 <img src="../lab-work/trel/FGSE_layout.jpg" alt="Fluid ground support equipment panels" />
+<figcaption></figcaption>
+</figure>
+<figure>
 <img src="../lab-work/trel/LOX_blowdown.jpeg" alt="Liquid oxygen system blowdown test" />
+<figcaption></figcaption>
+</figure>
 </div>
 
 ### Method
@@ -39,15 +50,24 @@ From January 2024 I designed, built, and tested the ground fluid systems for TRE
 
 <h2 id="ascend">ASCEND</h2>
 
+<figure>
 <img class="feature-center" src="../lab-work/ascend/atv_sideview.jpeg" alt="Side view of the integrated ATV testbed" />
+<figcaption></figcaption>
+</figure>
 
 ### Objective
 
 ASCEND is building an emergency-response aircraft for the GoAero competition. The testbed is a stripped ATV with electric drive, a flight motor, and a paraglider wing, being converted to remote and then autonomous control. I joined in January 2025 and became Chief Engineer in June 2026.
 
 <div class="img-pair">
+<figure>
 <img src="../lab-work/ascend/front_box_FEA.png" alt="Front frame FEA" />
+<figcaption></figcaption>
+</figure>
+<figure>
 <img src="../lab-work/ascend/adapter_plate_machining.jpg" alt="Machining an aluminum actuator adapter plate" />
+<figcaption></figcaption>
+</figure>
 </div>
 
 ### Method
@@ -68,15 +88,24 @@ ASCEND is building an emergency-response aircraft for the GoAero competition. Th
 
 <h2 id="adapt">ADAPT: animal prosthetics</h2>
 
+<figure>
 <img class="feature-center" src="../student-orgs/adapt/goat_prosthetic_fitted.jpg" alt="Goat standing on its 3D-printed prosthetic leg" />
+<figcaption></figcaption>
+</figure>
 
 ### Objective
 
 With ADAPT Texas and Safe in Austin Rescue Ranch, our team designed low-cost, 3D-printed prosthetics for two rescue animals: Halo, a Great Pyrenees with two front-limb amputations whose residual limbs could not bear pressure, on a ranch built on an incline that ruled out wheels; and a goat in need of a hoof prosthesis.
 
 <div class="img-pair">
+<figure>
 <img src="../student-orgs/adapt/dogblade_FEA.png" alt="FEA of the dog prosthetic blade" />
+<figcaption></figcaption>
+</figure>
+<figure>
 <img src="../student-orgs/adapt/dogprosthetic_poster.jpg" alt="Pawsthetic research poster" />
+<figcaption></figcaption>
+</figure>
 </div>
 
 ### Method
