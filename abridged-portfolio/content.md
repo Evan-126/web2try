@@ -39,6 +39,11 @@ From January 2024 I designed, built, and tested the ground fluid systems for TRE
 - **Igniter and purge systems.** Helped lead the GH₂/GOx igniter feed systems with electronically controlled regulators, and designed a continuous GN₂ purge that keeps electronics enclosures free of hazardous gas.
 - **Testing.** COPV proof and autofrettage, strain-gauge installation, and differential-pressure sensor validation on the Water Flow Test Stand, whose valve and orifice section I rebuilt.
 
+<figure>
+<img class="fig-center" src="../lab-work/trel/PID_example.png" alt="Example P&ID of a pressure-fed bipropellant feed system with ethanol and LOX tanks, GN2 pressurization, vents, purge, and a collection tank" />
+<figcaption>P&amp;ID Example: Ringas, N. (2022). Propellant Feed Assembly Design for a Pressure-Fed 1 kN Liquid Propellant Rocket Engine Test Platform. In: Froehlich, A. (eds) <em>Space Fostering African Societies</em>. Southern Space Studies. Springer, Cham. <a href="https://doi.org/10.1007/978-3-030-89887-8_2" target="_blank" rel="noopener">https://doi.org/10.1007/978-3-030-89887-8_2</a></figcaption>
+</figure>
+
 ### Results
 
 - The trailer became the backbone of cold-flow testing at our Pancake, TX site, and later served as the GSE station for static fires and eventually a launch attempt.

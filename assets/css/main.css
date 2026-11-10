@@ -4110,3 +4110,5 @@ input, select, textarea {
 .md-content figure { margin: 0; }
 .md-content figcaption { font-size: 0.85em; font-style: italic; opacity: 0.75; text-align: center; margin: 0.4em 0 0 0; line-height: 1.4; }
 .md-content figcaption:empty { display: none; }
+.md-content img.fig-center { display: block; margin: 1.5em auto 0 auto; width: 100%; max-width: 520px; border-radius: 5px; background: #fff; }
+.md-content figcaption a { color: inherit; word-break: break-all; }
