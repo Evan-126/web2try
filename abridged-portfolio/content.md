@@ -11,19 +11,24 @@
 
 <h2 id="trel">Texas Rocket Engineering Lab (TREL)</h2>
 
+<div class="img-pair">
 <figure>
 <img class="feature-center" src="../lab-work/trel/pointed_rocket.jpg" alt="TREL rocket on the launch rail at sunset" />
 <figcaption>Lifting Halcyon onto GSE</figcaption>
 </figure>
-
+<figure>
+<img src="../lab-work/trel/FGSE_layout.jpg" alt="Fluid ground support equipment panels" />
+<figcaption>Staging LOx, RP-1, and GN2 ground systems for testing</figcaption>
+</figure>
+</div>
 ### Objective
 
 From January 2024 I designed, built, and tested the ground fluid systems for TREL's Halcyon rocket, covering LOx, RP-1, GN₂, helium, GH₂, GOx, and water. In my second semester I became Ground Fluids Responsible Engineer, owning the P&IDs and integration of nearly all ground-fluid hardware.
 
 <div class="img-pair">
 <figure>
-<img src="../lab-work/trel/FGSE_layout.jpg" alt="Fluid ground support equipment panels" />
-<figcaption>Staging LOx, RP-1, and GN2 ground systems for testing</figcaption>
+<img class="fig-center" src="../lab-work/trel/PID_example.png" alt="Example P&ID of a pressure-fed bipropellant feed system with ethanol and LOX tanks, GN2 pressurization, vents, purge, and a collection tank" />
+<figcaption>Generic P&amp;ID Example: source<a href="https://doi.org/10.1007/978-3-030-89887-8_2" target="_blank" rel="noopener">https://doi.org/10.1007/978-3-030-89887-8_2</a></figcaption>
 </figure>
 <figure>
 <img src="../lab-work/trel/LOX_blowdown.jpeg" alt="Liquid oxygen system blowdown test" />
@@ -39,10 +44,7 @@ From January 2024 I designed, built, and tested the ground fluid systems for TRE
 - **Igniter and purge systems.** Helped lead the GH₂/GOx igniter feed systems with electronically controlled regulators, and designed a continuous GN₂ purge that keeps electronics enclosures free of hazardous gas.
 - **Testing.** COPV proof and autofrettage, strain-gauge installation, and differential-pressure sensor validation on the Water Flow Test Stand, whose valve and orifice section I rebuilt.
 
-<figure>
-<img class="fig-center" src="../lab-work/trel/PID_example.png" alt="Example P&ID of a pressure-fed bipropellant feed system with ethanol and LOX tanks, GN2 pressurization, vents, purge, and a collection tank" />
-<figcaption>P&amp;ID Example: Ringas, N. (2022). Propellant Feed Assembly Design for a Pressure-Fed 1 kN Liquid Propellant Rocket Engine Test Platform. In: Froehlich, A. (eds) <em>Space Fostering African Societies</em>. Southern Space Studies. Springer, Cham. <a href="https://doi.org/10.1007/978-3-030-89887-8_2" target="_blank" rel="noopener">https://doi.org/10.1007/978-3-030-89887-8_2</a></figcaption>
-</figure>
+
 
 ### Results
 
@@ -51,7 +53,7 @@ From January 2024 I designed, built, and tested the ground fluid systems for TRE
 - LOx fill automation cut operator workload and made fills repeatable.
 - Supported five cold-flow tests.
 
-*Some images come from the lab's public social media because of ITAR restrictions.*
+*Some images come from the lab's public social media due to ITAR restrictions.*
 
 <h2 id="ascend">ASCEND</h2>
 
