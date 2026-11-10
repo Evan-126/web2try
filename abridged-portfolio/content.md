@@ -13,7 +13,7 @@
 
 <figure>
 <img class="feature-center" src="../lab-work/trel/pointed_rocket.jpg" alt="TREL rocket on the launch rail at sunset" />
-<figcaption></figcaption>
+<figcaption>Lifting Halcyon onto GSE</figcaption>
 </figure>
 
 ### Objective
@@ -23,11 +23,11 @@ From January 2024 I designed, built, and tested the ground fluid systems for TRE
 <div class="img-pair">
 <figure>
 <img src="../lab-work/trel/FGSE_layout.jpg" alt="Fluid ground support equipment panels" />
-<figcaption></figcaption>
+<figcaption>Staging LOx, RP-1, and GN2 ground systems for testing</figcaption>
 </figure>
 <figure>
 <img src="../lab-work/trel/LOX_blowdown.jpeg" alt="Liquid oxygen system blowdown test" />
-<figcaption></figcaption>
+<figcaption>Initial cold flow and COPV fill of LN2</figcaption>
 </figure>
 </div>
 
@@ -52,7 +52,7 @@ From January 2024 I designed, built, and tested the ground fluid systems for TRE
 
 <figure>
 <img class="feature-center" src="../lab-work/ascend/atv_sideview.jpeg" alt="Side view of the integrated ATV testbed" />
-<figcaption></figcaption>
+<figcaption>Current Vehicle Side View</figcaption>
 </figure>
 
 ### Objective
@@ -62,11 +62,11 @@ ASCEND is building an emergency-response aircraft for the GoAero competition. Th
 <div class="img-pair">
 <figure>
 <img src="../lab-work/ascend/front_box_FEA.png" alt="Front frame FEA" />
-<figcaption></figcaption>
+<figcaption>Conservative Static Loading FEA on Battery Support Structure</figcaption>
 </figure>
 <figure>
 <img src="../lab-work/ascend/adapter_plate_machining.jpg" alt="Machining an aluminum actuator adapter plate" />
-<figcaption></figcaption>
+<figcaption>CNC Machining Air Motor Mount</figcaption>
 </figure>
 </div>
 
@@ -90,7 +90,7 @@ ASCEND is building an emergency-response aircraft for the GoAero competition. Th
 
 <figure>
 <img class="feature-center" src="../student-orgs/adapt/goat_prosthetic_fitted.jpg" alt="Goat standing on its 3D-printed prosthetic leg" />
-<figcaption></figcaption>
+<figcaption>Evie trying out her prosthetic</figcaption>
 </figure>
 
 ### Objective
@@ -100,11 +100,11 @@ With ADAPT Texas and Safe in Austin Rescue Ranch, our team designed low-cost, 3D
 <div class="img-pair">
 <figure>
 <img src="../student-orgs/adapt/dogblade_FEA.png" alt="FEA of the dog prosthetic blade" />
-<figcaption></figcaption>
+<figcaption>Static loading FEA analysis of Halo's aluminum blade</figcaption>
 </figure>
 <figure>
 <img src="../student-orgs/adapt/dogprosthetic_poster.jpg" alt="Pawsthetic research poster" />
-<figcaption></figcaption>
+<figcaption>Research Paper for Halo's "Pawsthetic", presented at CARE Research Day. </figcaption>
 </figure>
 </div>
 
