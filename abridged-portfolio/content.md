@@ -103,7 +103,7 @@ ASCEND is building an emergency-response aircraft for the GoAero competition. Th
 
 ### Objective
 
-With ADAPT Texas and Safe in Austin Rescue Ranch, our team designed low-cost, 3D-printed prosthetics for two rescue animals: Halo, a Great Pyrenees with two front-limb amputations whose residual limbs could not bear pressure, on a ranch built on an incline that ruled out wheels; and a goat in need of a hoof prosthesis.
+In my first semester, I served as a manufacturing and analysis specialist with a group dedicated to creating prosthetics for two animals: A deg named Halo, and a goat named Evie. We aimed to provide these two animals with low-cost devices that allowed them to use their lame limbs. Halo has two front legs ending in bone spurs and a rear amputation at the hip, while Evie has a deformed front limb. Later, I became the organizations Technical Director, advising these projects as well as the other four teams in the organization. 
 
 <div class="img-pair">
 <figure>
@@ -118,12 +118,12 @@ With ADAPT Texas and Safe in Austin Rescue Ranch, our team designed low-cost, 3D
 
 ### Method
 
-- **"Pawsthetic" for Halo.** We cast and 3D-scanned her legs, iterated in SolidWorks, and refit PLA, PETG, and TPU prototypes at the ranch monthly.
-- **Goat hoof prosthesis.** Took anatomical measurements and iterated the CAD to fix early balance and dragging problems.
+- **"Pawsthetic" for Halo.** We took plaster casts of her legs to create an accurate physical model, 3d-scanned the cast using photogrammetry for a 3d model, and designed and 3d-prited an articulating cast to support her front legs without causing pain. Every prototpye was iterated on in SolidWorks after collecting data from each fitting. I selected PETG ad different TPU compounds for their rigidity, outdoor robustness, and ductility (in the case of TPU). for the cast prototypes, and oversaw the analysis and production of the lightweight aluminum blade on the final version.
+- **Goat hoof prosthesis.** Analyzed the geometry of the deformed limb using pictures and simple measuring techniques. Developed a similar 3d-printed shell filled with foam to hold her weight, and iterated on different joint and strut angles to determine which best supported Evie throughout her range of motion. 
 
 ### Results
 
-- **Halo's blade:** FEA showed about 10×10⁻⁹ mm maximum deformation under 180 N.
-- **Goat hoof:** SolidWorks FEA validated the design at 6.07×10⁻⁷ mm under 180 N. Next steps were a molded rubber tread and a machined pyramid connector so parts can be swapped.
+- **Halo's helper:** FEA showed a maximum deflection of <1mm, and a maximum Von Mises stress of 40MPa, under 180 N. Both of these well within the limits of 6061-T6. Halo has successfully put her whole weight on the prosthetics. While she does still show signs of discomfort, it Is nowhere near as extreme as what she displayed with her past prosthetic. 
+- **Evie's extension:** Evie recently ran on all four limbs for the first time ever! She uses the prosthetic for up to an hour some days, and her caretakers are working with her to develop the muscles needed to carry it longer and more often. I continue to work with this team integrating electronic sensors into the prosthetic to record force data and analyze her movement. 
 
 <!-- Add a line here about what you personally did on ADAPT, e.g. "- **My role.** ..." -->
