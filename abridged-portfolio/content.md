@@ -24,12 +24,12 @@
 
 ### Objective
 
-From January 2024 I designed, built, and tested the ground fluid systems for TREL's Halcyon rocket, covering LOx, RP-1, GN₂, GHe, GH₂, GOx, and water. In my second semester I became Ground Fluids Responsible Engineer, owning the P&IDs and integration of nearly all ground-fluid hardware onto a mobile ground station. After that was operational I moved to a more test-focused role, developing test stands and assisting the validation of on-rocket hardware.  
+From January 2024 I designed, built, and tested the ground fluid systems for TREL's Halcyon rocket, covering LOx, RP-1, GN₂, GHe, GH₂, GOx, and water. In my second semester I became Ground Fluids Responsible Engineer, owning the P&IDs and integration of nearly all ground-fluid hardware onto a mobile ground station. Once that was operational, I moved into a more test-focused role, developing test stands and helping validate on-rocket hardware.
 
 <div class="img-pair">
 <figure>
 <img class="fig-center" src="../lab-work/trel/PID_example.png" alt="Example P&ID of a pressure-fed bipropellant feed system with ethanol and LOX tanks, GN2 pressurization, vents, purge, and a collection tank" />
-<figcaption>Generic P&amp;ID Example: source<a href="https://doi.org/10.1007/978-3-030-89887-8_2" target="_blank" rel="noopener">https://doi.org/10.1007/978-3-030-89887-8_2</a></figcaption>
+<figcaption>Generic P&amp;ID Example: Ringas, N. (2022). Propellant Feed Assembly Design for a Pressure-Fed 1 kN Liquid Propellant Rocket Engine Test Platform. In: Froehlich, A. (eds) <em>Space Fostering African Societies</em>. Southern Space Studies. Springer, Cham. <a href="https://doi.org/10.1007/978-3-030-89887-8_2" target="_blank" rel="noopener">https://doi.org/10.1007/978-3-030-89887-8_2</a></figcaption>
 </figure>
 <figure>
 <img src="../lab-work/trel/LOX_blowdown.jpeg" alt="Liquid oxygen system blowdown test" />
@@ -39,21 +39,20 @@ From January 2024 I designed, built, and tested the ground fluid systems for TRE
 
 ### Method
 
-- **Mobile GSE trailer.** Redesigned and integrated the LOx, RP-1, nitrogen, hydrogen, oxygen, helium, and water subsystems onto one field-deployable trailer, coordinating routing, mounting, maintenance access, and safety with the structures, electronics, software, and propulsion teams.
-- **FireX fire suppression.** Designed a water-based engine-bay suppression system from scratch: architecture, tank selection, line routing, tube sizing, and nozzles for broad coverage plus targeted ignition points, then built it.
-- **LOx
-- **Fluid Flow test Stands**
-- hydrocart: high-pressure test cart providing water to test articles at up to 10kpsi. it was used to autofrettage and proof test our COPVs. I was the technician and safety coordinator for some of these tests. I set up a blast shield to reduce the harm from any potential fractures, and would set up and perform maintenance on the cart and connections.
-- water/gas flow test stand: previously teams had developed water and gas flow stands separately, but wfts was highly inaccurate (used a paddle based flow sensor) and gas flow had been cannibalized to feed other tests. I worked to simplify the water flow system, shortened the total length of it, removed some extraneous hardware, and replaced the flow sensor with a venturi nozzle. the dP sensing element proved to be much more accurate. This test stand was later used to validate the pintle injector. gas flow was used to validate the RCS assembly. 
-- **Testing.** COPV proof and autofrettage, strain-gauge installation, and differential-pressure sensor validation on the Water Flow Test Stand, whose valve and orifice section I rebuilt.
-
-
+- **Mobile GSE trailer.** Redesigned and integrated the LOx, RP-1, nitrogen, hydrogen, oxygen, helium, and water subsystems onto a single field-deployable trailer, coordinating routing, mounting, maintenance access, and safety with the structures, electronics, software, and propulsion teams.
+- **FireX fire suppression.** Designed a water-based engine-bay suppression system from scratch: architecture, tank selection, line routing, tube sizing, and nozzles for broad coverage plus targeted ignition points. Then built it.
+- **LOx fill automation.** Wrote a state-machine controller that uses bang-bang valve control to hold tank pressure inside its band during fills.
+- **Hydrocart.** A high-pressure test cart that supplies water to test articles at up to 10 kpsi, used to autofrettage and proof test our COPVs. I was the technician and safety coordinator for several of these tests: I set up a blast shield in case of a fracture, and handled setup and maintenance of the cart and its connections.
+- **Water and gas flow test stand.** The water and gas stands had been developed separately. The Water Flow Test Stand (WFTS) was inaccurate because it relied on a paddle-wheel flow sensor, and the gas stand had been cannibalized to feed other tests. I simplified the water system, shortened it, removed extra hardware, and replaced the flow sensor with a venturi nozzle read by differential-pressure sensing.
+- **Instrumentation.** Installed strain gauges and validated differential-pressure sensors.
 
 ### Results
 
 - The trailer became the backbone of cold-flow testing at our Pancake, TX site, and later served as the GSE station for static fires and eventually a launch attempt.
-- FireX provided a comforting safety net in the 
+- FireX was later verified through testing.
 - LOx fill automation cut operator workload and made fills repeatable.
+- The hydrocart autofrettaged and proof tested our COPVs.
+- The venturi and differential-pressure setup was far more accurate than the paddle sensor. The WFTS later validated the pintle injector, and the gas flow side validated the RCS assembly.
 - Supported five cold-flow tests.
 
 *Some images come from the lab's public social media due to ITAR restrictions.*
