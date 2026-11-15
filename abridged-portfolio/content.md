@@ -42,16 +42,15 @@ From January 2024 I designed, built, and tested the ground fluid systems for TRE
 - **Mobile GSE trailer.** Redesigned and integrated the LOx, RP-1, nitrogen, hydrogen, oxygen, helium, and water subsystems onto a single field-deployable trailer, coordinating routing, mounting, maintenance access, and safety with the structures, electronics, software, and propulsion teams.
 - **FireX fire suppression.** Designed a water-based engine-bay suppression system from scratch: architecture, tank selection, line routing, tube sizing, and nozzles for broad coverage plus targeted ignition points. Then built it.
 - **LOx fill automation.** Wrote a state-machine controller that uses bang-bang valve control to hold tank pressure inside its band during fills.
-- **Hydrocart.** A high-pressure test cart that supplies water to test articles at up to 10 kpsi, used to autofrettage and proof test our COPVs. I was the technician and safety coordinator for several of these tests: I set up a blast shield in case of a fracture, and handled setup and maintenance of the cart and its connections.
-- **Water and gas flow test stand.** The water and gas stands had been developed separately. The Water Flow Test Stand (WFTS) was inaccurate because it relied on a paddle-wheel flow sensor, and the gas stand had been cannibalized to feed other tests. I simplified the water system, shortened it, removed extra hardware, and replaced the flow sensor with a venturi nozzle read by differential-pressure sensing.
-- **Instrumentation.** Installed strain gauges and validated differential-pressure sensors.
+- **Hydrocart.** A high-pressure test cart that supplies water to test articles at up to 10 kpsi, used to autofrettage and proof test our COPVs, with strain gauges installed on them for these tests. I was the technician and safety coordinator for several of these tests: I set up a blast shield in case of a fracture, and handled setup and maintenance of the cart and its connections.
+- **Water and gas flow test stand.** The water and gas stands had been developed separately. The Water Flow Test Stand (WFTS) was inaccurate because it relied on a paddle-wheel flow sensor, and the gas stand had been cannibalized to feed other tests. I simplified the water system, shortened it, removed extra hardware, and replaced the flow sensor with a venturi nozzle read by differential-pressure sensing, and validated the dP sensors on the stand.
 
 ### Results
 
 - The trailer became the backbone of cold-flow testing at our Pancake, TX site, and later served as the GSE station for static fires and eventually a launch attempt.
 - FireX was later verified through testing.
 - LOx fill automation cut operator workload and made fills repeatable.
-- The hydrocart autofrettaged and proof tested our COPVs.
+- The hydrocart autofrettaged and proof tested our COPVs, with strain gauge data from the tests.
 - The venturi and differential-pressure setup was far more accurate than the paddle sensor. The WFTS later validated the pintle injector, and the gas flow side validated the RCS assembly.
 - Supported five cold-flow tests.
 
@@ -60,7 +59,7 @@ From January 2024 I designed, built, and tested the ground fluid systems for TRE
 <h2 id="ascend">ASCEND</h2>
 
 <figure>
-<img class="feature-center" src="../lab-work/ascend/atv_sideview.jpeg" alt="Side view of the integrated ATV testbed" />
+<img class="feature-center" src="../lab-work/ascend/atv_sideview_current.jpg" alt="Side view of the ASCEND ATV testbed with the paraglider flight motor and cage mounted on the front frame" />
 <figcaption>Current Vehicle Side View</figcaption>
 </figure>
 
