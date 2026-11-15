@@ -21,9 +21,10 @@
 <figcaption>Staging LOx, RP-1, and GN2 ground systems for testing</figcaption>
 </figure>
 </div>
+
 ### Objective
 
-From January 2024 I designed, built, and tested the ground fluid systems for TREL's Halcyon rocket, covering LOx, RP-1, GN₂, helium, GH₂, GOx, and water. In my second semester I became Ground Fluids Responsible Engineer, owning the P&IDs and integration of nearly all ground-fluid hardware.
+From January 2024 I designed, built, and tested the ground fluid systems for TREL's Halcyon rocket, covering LOx, RP-1, GN₂, GHe, GH₂, GOx, and water. In my second semester I became Ground Fluids Responsible Engineer, owning the P&IDs and integration of nearly all ground-fluid hardware onto a mobile ground station. After that was operational I moved to a more test-focused role, developing test stands and assisting the validation of on-rocket hardware.  
 
 <div class="img-pair">
 <figure>
@@ -40,8 +41,10 @@ From January 2024 I designed, built, and tested the ground fluid systems for TRE
 
 - **Mobile GSE trailer.** Redesigned and integrated the LOx, RP-1, nitrogen, hydrogen, oxygen, helium, and water subsystems onto one field-deployable trailer, coordinating routing, mounting, maintenance access, and safety with the structures, electronics, software, and propulsion teams.
 - **FireX fire suppression.** Designed a water-based engine-bay suppression system from a blank page: architecture, tank selection, line routing, tube sizing, and nozzles for broad coverage plus targeted ignition points, then built it.
-- **LOx fill automation.** Wrote a state-machine controller running a bang-bang valve strategy to hold tank pressure inside its band during filling.
-- **Igniter and purge systems.** Helped lead the GH₂/GOx igniter feed systems with electronically controlled regulators, and designed a continuous GN₂ purge that keeps electronics enclosures free of hazardous gas.
+- **LOx
+- **Fluid Flow test Stands**
+- hydrocart: high-pressure test cart providing water to test articles at up to 10kpsi. it was used to autofrettage and proof test our COPVs. I was the technician and safety coordinator for some of these tests. I set up a blast shield to reduce the harm from any potential fractures, and would set up and perform maintenance on the cart and connections.
+- water/gas flow test stand: previously teams had developed water and gas flow stands separately, but wfts was highly inaccurate (used a paddle based flow sensor) and gas flow had been cannibalized to feed other tests. I worked to simplify the water flow system, shortened the total length of it, removed some extraneous hardware, and replaced the flow sensor with a venturi nozzle. the dP sensing element proved to be much more accurate. This test stand was later used to validate the pintle injector. gas flow was used to validate the RCS assembly. 
 - **Testing.** COPV proof and autofrettage, strain-gauge installation, and differential-pressure sensor validation on the Water Flow Test Stand, whose valve and orifice section I rebuilt.
 
 
