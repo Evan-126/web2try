@@ -40,7 +40,7 @@ From January 2024 I designed, built, and tested the ground fluid systems for TRE
 ### Method
 
 - **Mobile GSE trailer.** Redesigned and integrated the LOx, RP-1, nitrogen, hydrogen, oxygen, helium, and water subsystems onto one field-deployable trailer, coordinating routing, mounting, maintenance access, and safety with the structures, electronics, software, and propulsion teams.
-- **FireX fire suppression.** Designed a water-based engine-bay suppression system from a blank page: architecture, tank selection, line routing, tube sizing, and nozzles for broad coverage plus targeted ignition points, then built it.
+- **FireX fire suppression.** Designed a water-based engine-bay suppression system from scratch: architecture, tank selection, line routing, tube sizing, and nozzles for broad coverage plus targeted ignition points, then built it.
 - **LOx
 - **Fluid Flow test Stands**
 - hydrocart: high-pressure test cart providing water to test articles at up to 10kpsi. it was used to autofrettage and proof test our COPVs. I was the technician and safety coordinator for some of these tests. I set up a blast shield to reduce the harm from any potential fractures, and would set up and perform maintenance on the cart and connections.
@@ -52,7 +52,7 @@ From January 2024 I designed, built, and tested the ground fluid systems for TRE
 ### Results
 
 - The trailer became the backbone of cold-flow testing at our Pancake, TX site, and later served as the GSE station for static fires and eventually a launch attempt.
-- FireX was later verified through tests.
+- FireX provided a comforting safety net in the 
 - LOx fill automation cut operator workload and made fills repeatable.
 - Supported five cold-flow tests.
 
@@ -67,7 +67,7 @@ From January 2024 I designed, built, and tested the ground fluid systems for TRE
 
 ### Objective
 
-ASCEND is building an emergency-response aircraft for the GoAero competition. The testbed is a stripped ATV with electric drive, a flight motor, and a paraglider wing, being converted to remote and then autonomous control. I joined in January 2025 and became Chief Engineer in June 2026.
+ASCEND is building an emergency-response aircraft for the GoAero competition. The testbed is a stripped ATV with electric drive, a flight motor, and a paraglider wing, being converted to remote and then autonomous control. I joined in January 2025 with ownership of steering development. In Fall 2025 I became the Production Lead, and lated ascended to the role of Chief Mechanical Engineer in June 2026.
 
 <div class="img-pair">
 <figure>
@@ -82,17 +82,15 @@ ASCEND is building an emergency-response aircraft for the GoAero competition. Th
 
 ### Method
 
-- **Front frame.** Measured, modeled, and ran FEA on a frame tying into four irregular mounting points on different planes, then sourced material and welded it.
-- **Flight motor mount.** Built an adjustable 80/20 mount adapting the motor's hex bolt pattern for stand testing. When a later version vibrated, I redesigned it with stiffer members and damping hardware.
-- **Linear actuator integration.** A ground-clearance problem forced a move from custom parts to an aluminum frame reinforced with 40×40 channel. I designed and machined the 10 mm aluminum adapter plates, with press-fit features for vibration resistance.
-- **Braking system.** Designed an adapter that fit an off-the-shelf replacement brake to the originally unusable system, with provisions for future linear-actuator control.
-- **Test stands.** Designed and built two stands from hardware-store material: one for flight-motor and wing-mount tests, one that places the actuators in their on-vehicle geometry for brake testing.
+- **Front frame.** Measured, modeled, and performed FEA our battery frame, tying into into four irregular mounting points on different planes. After verifying the design, I welded the frame together and mounted it. 
+- **Flight motor mount.** Built an adjustable 80/20 mount adapting the motor's hex bolt pattern for testing. After determining the position of the motor and cage, I modeled and analysed a welded-steel tube structure with damped mounting points, tying onto a lightweight aluminum motor plate I CNC machined. 
+- **Linear actuator integration.** A ground-clearance problem forced us to remount the braking linear actuators higher on the chassis than they were originally placed. I designed and machined the 10 mm aluminum adapter plates to ±0.1mm precision, tight enough to press-fit features on the mounting hardware.
+- **Electronic and Soft mounts,** The vehicle makes use of a number of electronic components. I designed and printed parts to hold these electronics and their cables. Additionally, the rising 
 
 ### Results
 
-- The concept earned a GoAero Innovation Award, and by June 2026 every major subsystem was physically on the vehicle.
-- The front frame is simple, cheap, and rigid, and carries the batteries and electronics.
-- The vehicle later adopted the same adjustable mount approach used for stand testing.
+- Every major subsystem was manufactured and physically on the vehicle. 
+- The front frame effectively carries the weight and cushions the batteries and main electronics plate, as well as counterbalances the weight of the motor in the rear. 
 - Braking improved substantially in testing.
 - Each test stand cost under $30.
 
