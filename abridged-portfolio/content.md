@@ -50,7 +50,7 @@ From January 2024 I designed, built, and tested the ground fluid systems for TRE
 - The trailer became the backbone of cold-flow testing at our Pancake, TX site, and later served as the GSE station for static fires and eventually a launch attempt.
 - FireX was later verified through testing.
 - LOx fill automation cut operator workload and made fills repeatable.
-- The hydrocart autofrettaged and proof tested our COPVs, with strain gauge data from the tests.
+- The hydrocart autofrettaged and proof tested our COPVs, with strain gauges integrated on the COPVs.
 - The venturi and differential-pressure setup was far more accurate than the paddle sensor. The WFTS later validated the pintle injector, and the gas flow side validated the RCS assembly.
 - Supported five cold-flow tests.
 
